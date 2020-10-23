@@ -10,51 +10,212 @@
   </head>
 
   <body>
-    Pricing
-    About
-    Contact
-    Schedule a Demo
 
-    Start building with our APIs for absolutely free.
-    Enter email address 
-    Schedule a Demo
-    Have any questions? Contact Us
+    <!-- Header -->
+    <header class="header">
 
-    Who we work with
-    Today, millions of people around the world have successfully connected 
-    their accounts to apps they love using our API. We provide developers 
-    with the tools they need to create easy and accessible experiences 
-    for their users.
-    About Us
+      <!-- Wrapper -->
+      <div class="wrapper">
 
-    Easy to implement
-    Our API comes with just a few lines of code. You’ll be up and running in 
-    no time. We built our documentation page to integrate payments functionality 
-    with ease.
+        <!-- Navigation -->
+        <nav class="nav">
 
-    Simple UI & UX
-    Our pre-built form is easy to integrate in your app or website’s checkout 
-    flow and designed to optimize conversion.
+          <div class="nav__logo"><img src="./assets/shared/desktop/logo.svg" alt="logo"></div>
 
-    Personal Finances
-    Consolidate financial data from multiple sources and categorize transactions up to
-    2 years of history. Analyze reports to reconcile activities in your account.
+          <ul class="nav__list" id="nav-menu">
+            <li class="nav__item"><a href="" class="nav__link">Pricing</a></li>
+            <li class="nav__item"><a href="" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="" class="nav__link">Contact</a></li>
+          </ul>
 
-    Banking & Coverage
-    With our platform, you can speed up account onboarding and support ongoing payments 
-    for checking, savings, credit card, and brokerage accounts.
+          <a class="btn btn--primary">Schedule a Demo</a>
 
-    Consumer Payments
-    It’s easier to set up secure bank payments with us through a flow designed with the 
-    user experience in mind. Customers could instantly authenticate their account.
+          <button class="nav__toggle" id="nav-toggle"></button>
 
-    Ready to start? 
-    Enter email address 
-    Schedule a Demo
+        </nav>
 
-    Pricing
-    About
-    Contact
+        <!-- Hero -->
+        <div class="hero">
+
+          <!-- Text Container -->
+          <div class="hero__text-container">
+            <h1 class="heading heading--1 heading--1-large">Start building with our APIs for absolutely free.</h1>
+            <form action="" class="form form--hero">
+              <input type="email" name="" id="" placeholder="Enter email address">
+              <input type="submit" value="Schedule a Demo">
+            </form>
+            <p>Have any questions? <a href="#">Contact Us</a></p>
+          </div>
+          
+          <!-- Image Container -->
+          <div class="hero__image-container">
+            <img src="./assets/home/desktop/illustration-phone-mockup.svg" alt="An illustration of a Phone using PayAPI" class="hero__img">
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+
+      <!-- Section - Partners -->
+      <section class="partners">
+
+        <!-- Wrapper -->
+        <div class="wrapper">
+
+            <!-- Text Container -->
+          <div class="partners__text-container">
+            <h2 class="heading heading--2">Who we work with</h2>
+            <p class="paragraph">
+              Today, millions of people around the world have successfully connected 
+              their accounts to apps they love using our API. We provide developers 
+              with the tools they need to create easy and accessible experiences 
+              for their users.
+            </p>
+            <button class="btn btn--secondary">
+              About Us
+            </button>
+          </div>
+
+          <!-- Partners Logos -->
+          <ul class="partners__list">
+            <li class="partners__item"><img src="./assets/shared/desktop/tesla.svg" alt="Tesla Logo" class="partners__img"></li>
+            <li class="partners__item"><img src="./assets/shared/desktop/microsoft.svg" alt="Microsoft Logo" class="partners__img"></li>
+            <li class="partners__item"><img src="./assets/shared/desktop/hewlett-packard.svg" alt="HP Logo" class="partners__img"></li>
+            <li class="partners__item"><img src="./assets/shared/desktop/oracle.svg" alt="Oracle Logo" class="partners__img"></li>
+            <li class="partners__item"><img src="./assets/shared/desktop/google.svg" alt="Google Logo" class="partners__img"></li>
+            <li class="partners__item"><img src="./assets/shared/desktop/nvidia.svg" alt="Nvidia Logo" class="partners__img"></li>
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- Section - Features -->
+      <section class="features">
+
+        <!-- Wrapper -->
+        <div class="wrapper">
+
+          <!-- Feature - 01 -->
+          <div class="feature">
+            <div class="feature__image-container">
+              <img src="./assets/home/desktop/illustration-easy-to-implement.svg" alt="An illustration that shows how the API should be implemented in code">
+            </div>
+
+            <div class="feature__text-container">
+              <h2 class="heading heading--2">Easy to implement</h2>
+              <p class="paragraph">
+                Our API comes with just a few lines of code. You’ll be up and running in 
+                no time. We built our documentation page to integrate payments functionality 
+                with ease.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature - 02 -->
+          <div class="feature">
+            <div class="feature__image-container">
+              <img src="./assets/home/desktop/illustration-simple-ui.svg" alt="An illustration that shows the UI of the app">
+            </div>
+
+            <div class="feature__text-container">
+              <h2 class="heading heading--2">Simple UI & UX</h2>
+              <p class="paragraph">
+                Our pre-built form is easy to integrate in your app or website’s checkout 
+                flow and designed to optimize conversion.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature List -->
+          <ul class="features__list">
+            <li class="features__item">
+              <div class="features__icon"><img src="./assets/home/desktop/icon-personal-finances.svg" alt=""></div>
+              <div class="features__text">
+                <h3 class="heading heading--3 heading--3-small">Personal Finances</h3>
+                <p class="paragraph">
+                  Consolidate financial data from multiple sources and categorize transactions up to
+                  2 years of history. Analyze reports to reconcile activities in your account.
+                </p>
+              </div>
+            </li>
+
+            <li class="features__item">
+              <div class="features__icon"><img src="./assets/home/desktop/icon-banking-and-coverage.svg" alt=""></div>
+              <div class="features__text">
+                <h3 class="heading heading--3 heading--3-small">Banking & Coverage</h3>
+                <p class="paragraph">
+                  With our platform, you can speed up account onboarding and support ongoing payments 
+                  for checking, savings, credit card, and brokerage accounts.
+                </p>
+              </div>
+            </li>
+
+            <li class="features__item">
+              <div class="features__icon"><img src="./assets/home/desktop/icon-consumer-payments.svg" alt=""></div>
+              <div class="features__text">
+                <h3 class="heading heading--3 heading--3-small">Consumer Payments</h3>
+                <p class="paragraph">
+                  It’s easier to set up secure bank payments with us through a flow designed with the 
+                  user experience in mind. Customers could instantly authenticate their account.
+                </p>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- Section - CTA -->
+      <section class="cta-box">
+
+        <!-- Wrapper -->
+        <div class="wrapper">
+
+          <h2 class="heading heading--2">Ready to start?</h2>
+          <form action="" class="form form--cta">
+            <input type="email" name="" id="" placeholder="Enter email address">
+            <input type="submit" value="Schedule a Demo">
+          </form>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      
+      <!-- Wrapper -->
+      <div class="wrapper">
+
+        <!-- Navigation -->
+        <nav class="nav">
+
+          <div class="nav__logo"><img src="./assets/shared/desktop/logo.svg" alt="logo"></div>
+
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Pricing</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+          </ul>
+
+        </nav>
+
+        <!-- Social Links-->
+        <ul class="social__list">
+          <li class="social__item"><a href="#" class="social__link"><img src="./assets/shared/desktop/facebook.svg" alt="" class="social__icon"></a></li>
+          <li class="social__item"><a href="#" class="social__link"><img src="./assets/shared/desktop/twitter.svg" alt="" class="social__icon"></a></li>
+          <li class="social__item"><a href="#" class="social__link"><img src="./assets/shared/desktop/linkedin.svg" alt="" class="social__icon"></a></li>
+        </ul>
+
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./app/js/script.js"></script>
+
   </body>
-
 </html>
