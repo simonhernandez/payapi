@@ -1,0 +1,48 @@
+// ********************
+// Typography
+// ********************
+
+// Body
+body{
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-body);
+    font-weight: var(--fw-reg);
+    line-height: 1.86rem;
+}
+
+// Headings
+
+.heading{
+    font-family: var(--ff-primary);
+
+    &--1-large{
+        font-size: var(--fs-h1-l);
+        line-height: 4.8rem;
+    }
+
+    &--1-small{
+        font-size: var(--fs-h1-s);
+        line-height: 3.733rem;
+    }
+
+    &--2{
+        font-size: var(--fs-h2);
+        line-height: 3.733rem;
+    }
+
+    &--3-large{
+        font-size: var(--fs-h3-l);
+        line-height: 2.667rem;
+    }
+
+    &--3-small{
+        font-size: var(--fs-h3-s);
+        line-height: 1.667rem;
+    }
+
+    &--4{
+        font-size: var(--fs-h4);
+        line-height: 2.133rem;
+    }
+    
+}
