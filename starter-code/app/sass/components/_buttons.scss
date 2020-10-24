@@ -22,14 +22,20 @@
     &--secondary{
         background-color: var(--color-mirage-blue);
         color: var(--color-link-water-white);
+        border: .0667rem solid var(--color-link-water-white);
         
         &:hover{
             background-color: var(--color-link-water-white);
             color: var(--color-mirage-blue);
         }
-
+        
         &:disabled{
             opacity: .5;
         }
+    }
+    
+    &--dark{
+        background-color: var(--color-link-water-white);
+        color: var(--color-mirage-blue);
     }
 }
