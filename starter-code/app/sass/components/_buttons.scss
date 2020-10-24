@@ -1,10 +1,35 @@
-.btn,
-[type="submit"]{
+.btn{
     display: inline-block;
     padding: 1rem 1.733rem;
     border-radius: 1.6rem;
-    width: 100%;
-    @media screen and (min-width: 51.1rem){
-        width: 11.53rem;
+    width: 11.53rem;
+    text-align: center;
+
+    &--primary{
+        background-color: var(--color-dark-pink);
+        color: var(--color-link-water-white);
+
+        &:hover,
+        &:disabled{
+            background-color: var(--color-charm-pink);
+        }
+
+        &:disabled{
+            opacity: .5;
+        }
+    }
+
+    &--secondary{
+        background-color: var(--color-mirage-blue);
+        color: var(--color-link-water-white);
+        
+        &:hover{
+            background-color: var(--color-link-water-white);
+            color: var(--color-mirage-blue);
+        }
+
+        &:disabled{
+            opacity: .5;
+        }
     }
 }
