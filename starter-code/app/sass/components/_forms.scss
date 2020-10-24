@@ -6,6 +6,21 @@
 
 .form{
 
+    &--cta{
+
+        [type="email"],
+        [type="submit"]{
+            display: block;
+            width: 100%;
+            border-radius: 1.6rem;
+            padding: 1rem 1.8rem;
+        }
+
+        > *:not(:last-child){
+            margin-bottom: 1rem;
+        }
+    }
+
     &--contact{
 
         [type="text"],
