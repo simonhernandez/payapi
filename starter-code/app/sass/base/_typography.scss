@@ -68,3 +68,16 @@ body{
         opacity: .7;
     }
 }
+
+// Typography: Pricing
+.tier{
+    &__feature{
+        &--included{
+            color: var(--color-sanjuan-blue);
+        }
+
+        &--not-included{
+            opacity: .5;
+        }
+    }
+}
