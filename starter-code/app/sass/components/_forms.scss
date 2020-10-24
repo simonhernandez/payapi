@@ -1,0 +1,29 @@
+// ********************
+// Forms
+// ********************
+
+// Text Fields
+
+.form{
+
+    &--contact{
+
+        [type="text"],
+        [type="email"]{
+            border: none;
+            background: none;
+            color: var(--color-sanjuan-blue);
+            opacity: .5;
+            border-bottom: 0.0667rem solid var(--color-sanjuan-blue);
+        }
+
+        [type="text"]:active,
+        [type="email"]:active{
+            opacity: initial;
+        }
+    }
+}
+
+
+
+// Text Area
