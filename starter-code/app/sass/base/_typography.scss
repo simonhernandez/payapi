@@ -32,9 +32,14 @@ body{
         line-height: 3.733rem;
     }
 
+    &--3{
+        font-family: var(--ff-secondary);
+    }
+
     &--3-large{
         font-size: var(--fs-h3-l);
         line-height: 2.667rem;
+        color: var(--color-charm-pink);
     }
 
     &--3-small{
@@ -45,5 +50,21 @@ body{
     &--4{
         font-size: var(--fs-h4);
         line-height: 2.133rem;
+    }
+}
+
+// Typography: Home
+.hero__text-container{
+    a {
+        font-weight: var(--fw-bold);
+    }
+}
+
+// Typography: Home - Partners
+.parters{
+    color: var(--color-link-water-white);
+
+    .paragraph{
+        opacity: .7;
     }
 }
