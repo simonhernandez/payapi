@@ -33,24 +33,28 @@
 }
 
 // Tablet
-:root{
-    --fs-h1-l: 3.2rem;
-    --fs-h1-s: 3.2rem;
-    --fs-h2: 3.2rem;
-    --fs-h3-l: 1.6rem;
-    --fs-h3-s: 1.2rem;
-    --fs-h4: 1.6rem;
-    --fs-body: 1rem;
+@media screen and (min-width: 51.1rem){
+    :root{
+        --fs-h1-l: 3.2rem;
+        --fs-h1-s: 3.2rem;
+        --fs-h2: 3.2rem;
+        --fs-h3-l: 1.6rem;
+        --fs-h3-s: 1.2rem;
+        --fs-h4: 1.6rem;
+        --fs-body: 1rem;
+    }
 }
 
 // Desktop
-:root{
-    --fs-h1-l: 4.8rem;
-    --fs-h1-s: 3.733rem;
-    --fs-h2: 3.2rem;
-    --fs-h3-l: 2.133rem;
-    --fs-h3-s: 1.2rem;
-    --fs-h4: 1.6rem;
-    --fs-body: 1rem;
+@media screen and (min-width: 96rem){
+    :root{
+        --fs-h1-l: 4.8rem;
+        --fs-h1-s: 3.733rem;
+        --fs-h2: 3.2rem;
+        --fs-h3-l: 2.133rem;
+        --fs-h3-s: 1.2rem;
+        --fs-h4: 1.6rem;
+        --fs-body: 1rem;
+    }
 }
 

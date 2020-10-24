@@ -8,12 +8,14 @@ body{
     font-size: var(--fs-body);
     font-weight: var(--fw-reg);
     line-height: 1.86rem;
+    color: var(--color-light-sanjuan-blue);
 }
 
 // Headings
 
 .heading{
     font-family: var(--ff-primary);
+    color: var(--color-sanjuan-blue);
 
     &--1-large{
         font-size: var(--fs-h1-l);
@@ -44,5 +46,4 @@ body{
         font-size: var(--fs-h4);
         line-height: 2.133rem;
     }
-    
 }
