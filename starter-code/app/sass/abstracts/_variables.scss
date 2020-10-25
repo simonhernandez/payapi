@@ -30,6 +30,13 @@
 
     --fw-reg: 400;
     --fw-bold: 700;
+
+    // Z Index
+    --z-back: -1;
+    --z-normal: 1;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+
     // Box Shadow
 }
 
