@@ -1,0 +1,78 @@
+// ********************
+// Footer Styles
+// ********************
+
+.footer{
+    background-color: var(--color-mirage-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    // Mobile
+    @media screen and (max-width: 51.1rem){
+        flex-direction: column;
+    }
+    
+    .wrapper{
+        width: 100%;
+        display: inherit;
+        flex-direction: inherit;
+        justify-content: inherit;
+        align-items: inherit;
+
+        // Mobile
+        padding: 2.667rem 0;
+
+        // Tablet
+        @media screen and (min-width: 51.1rem){
+            padding: 2.667rem;
+        }
+
+        // Desktop
+        @media screen and (min-width: 96rem){
+            padding: 2.667rem 11rem;
+        }
+
+    }
+
+    .nav{
+
+        @media screen and (min-width: 51.2rem){
+            display: flex;
+        }
+
+        > *{
+            @media screen and (max-width: 51.1rem){
+                margin-bottom: 2.667rem;
+            }
+        }
+
+        &__list{
+            @media screen and (min-width: 51.2rem){
+                display: flex;
+                align-items: center;
+                margin-left: 4.267rem;
+            }
+        }
+
+        &__item{
+            @media screen and (max-width: 51.1rem){
+                margin-bottom: 2rem;
+                text-align: center;
+            }
+            @media screen and (min-width: 51.2rem){
+                margin-right: 2.667rem;
+            }
+        }
+    }
+
+    .social__list{
+        display: flex;
+        justify-content: center;
+        
+
+        > *:not(:last-child){
+            margin-right: 1.6rem;
+        }
+    }
+}
