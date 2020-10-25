@@ -54,6 +54,12 @@
                     opacity: .15;
                 }
             }
+            .btn--mobile{
+                width: 100%;
+            }
+            .btn--desktop{
+                display: none;
+            }
         }
     }
 }
