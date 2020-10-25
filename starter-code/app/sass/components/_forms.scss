@@ -53,11 +53,28 @@
             opacity: .5;
             border-bottom: 0.0667rem solid var(--color-sanjuan-blue);
         }
-
+        
         [type="text"]:active,
         [type="email"]:active,
         textarea:active{
             opacity: initial;
+        }
+        
+        [type="text"]:invalid,
+        [type="email"]:invalid,
+        textarea:invalid{
+            position: relative;
+            color: red;
+            border-bottom: 0.0667rem solid red;
+        }
+
+        [type="text"]:invalid::after,
+        [type="email"]:invalid::after,
+        textarea:invalid::after {
+            content: 'This field can not be empty';
+            position: absolute;
+            bottom: -1rem;
+            left: 1rem;
         }
     }
 
@@ -94,5 +111,4 @@
             top: 0;
         }
     }
-
 }
