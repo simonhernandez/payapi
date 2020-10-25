@@ -58,6 +58,19 @@ body{
     font-weight: var(--fw-bold);
 }
 
+// Typography: Navigation
+
+.nav{
+    &__item{
+        font-weight: var(--fw-bold);
+
+        @media screen and (max-width: 51.1rem){
+            font-size: 1.33rem;
+        }
+    }
+}
+
+
 // Typography: Home
 .hero__text-container{
     a {
