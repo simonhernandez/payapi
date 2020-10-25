@@ -4,38 +4,70 @@
 
 .header{
 
+    .wrapper{
+        padding: 2.667rem 1.6rem;
+
+        // Tablet
+        @media screen and (min-width: 51.1rem){
+            padding: 2.667rem;
+        }
+
+        // Desktop
+        @media screen and (min-width: 96rem){
+            padding: 2.667rem 11rem;
+        }
+    }
+
     .nav{
         display: flex;
         justify-content: space-between;
         align-items: center;
 
-        @media screen and (max-width: 51.1rem){
+        &__logo{
+            max-width: 9rem;
+        }
 
-            &__list{
+        &__list{
+            display: flex;
+            align-items: center;
+            z-index: 100;
+            // TODO: declare z index variables
+            
+            @media screen and (max-width: 51.1rem){
+                flex-direction: column;
                 background-color: var(--color-mirage-blue);
                 position: fixed;
-                right: -1000%;
+                right: 0;
                 top: 0;
                 width: 80%;
                 height: 100%;
                 padding: 3.2rem 1.6rem;
-
-                display: flex;
-                flex-direction: column;
-                align-items: center;
             }
+        }
 
-            &__toggle--close{
+        &__toggle{
+            @media screen and (min-width: 51.2rem){
+                display: none;
+            }
+        }
+        
+        &__toggle--close{
+            @media screen and (max-width: 51.1rem){
                 margin-left: auto;
                 margin-bottom: 3.2rem;
             }
-
-            &__item{
-                // display: block;
+        }
+        
+        &__item{
+            
+            @media screen and (max-width: 51.1rem){
                 width: 100%;
                 margin-bottom: 2.133rem;
-                position: relative;
                 text-align: center;
+                
+                &:first-of-type{
+                    position: relative;
+                }
 
                 &:first-of-type::before{
                     content: '';
@@ -48,10 +80,19 @@
                     opacity: .15;
                 }
             }
-            .btn--mobile{
-                width: 100%;
+
+            @media screen and (min-width: 51.2rem){
+                margin-right: 2.667rem;
             }
-            .btn--desktop{
+        }
+        .btn--mobile{
+            width: 100%;
+            @media screen and (min-width: 51.2rem){
+                display: none;
+            }
+        }
+        .btn--desktop{
+            @media screen and (max-width: 51.1rem){
                 display: none;
             }
         }
