@@ -30,15 +30,14 @@
         &__list{
             display: flex;
             align-items: center;
-            z-index: 100;
-            // TODO: declare z index variables
-            
+
             @media screen and (max-width: 51.1rem){
                 flex-direction: column;
                 background-color: var(--color-mirage-blue);
                 position: fixed;
-                right: 0;
+                right: -80%;
                 top: 0;
+                z-index: var(--z-fixed);
                 width: 80%;
                 height: 100%;
                 padding: 3.2rem 1.6rem;
