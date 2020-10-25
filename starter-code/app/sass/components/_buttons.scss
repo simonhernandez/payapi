@@ -1,3 +1,4 @@
+// Reusable Buttons
 .btn{
     display: inline-block;
     padding: 1rem 1.733rem;
@@ -47,5 +48,22 @@
         &:disabled{
             opacity: .5;
         }
+    }
+}
+
+// Nav Toggle Buttons
+.nav__toggle{
+    display: block;
+    width: 1.6rem;
+    height: 1.6rem;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &--open{
+        background-image: url(/starter-code/assets/shared/mobile/menu.svg);
+    }
+
+    &--close{
+        background-image: url(/starter-code/assets/shared/mobile/close.svg);
     }
 }
