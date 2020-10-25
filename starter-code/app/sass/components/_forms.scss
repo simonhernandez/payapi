@@ -5,26 +5,48 @@
 // Text Fields
 
 .form{
+    margin: 0 auto;
 
     &--cta{
+        @media screen and (min-width: 51.1rem){
+            display: flex;
+            justify-content: space-between;
+            background-color: var(--color-link-water-white);
+            max-width: 29.667rem;
+            border-radius: 1.6rem;
+        }
 
         [type="email"],
         [type="submit"]{
-            display: block;
-            width: 100%;
             border-radius: 1.6rem;
             padding: 1rem 1.8rem;
+            
+            @media screen and (max-width: 51.1rem){
+                display: block;
+                width: 100%;
+            }
         }
-
+        
         > *:not(:last-child){
-            margin-bottom: 1rem;
+            
+            @media screen and (max-width: 51.1rem){
+                margin-bottom: 1rem;
+            }
         }
     }
 
     &--contact{
+        display: flex;
+        flex-direction: column;
 
+        > *:not(:last-child){
+            margin-bottom: 1.6rem;
+        }
+
+        // Inputs and Text Areas
         [type="text"],
-        [type="email"]{
+        [type="email"],
+        textarea{
             border: none;
             background: none;
             color: var(--color-sanjuan-blue);
@@ -33,12 +55,9 @@
         }
 
         [type="text"]:active,
-        [type="email"]:active{
+        [type="email"]:active,
+        textarea:active{
             opacity: initial;
         }
     }
 }
-
-
-
-// Text Area
