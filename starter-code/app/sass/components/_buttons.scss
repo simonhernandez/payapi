@@ -4,6 +4,7 @@
     border-radius: 1.6rem;
     width: 11.53rem;
     text-align: center;
+    cursor: pointer;
 
     &--primary{
         background-color: var(--color-dark-pink);
@@ -35,7 +36,17 @@
     }
     
     &--dark{
-        background-color: var(--color-link-water-white);
-        color: var(--color-mirage-blue);
+        background-color: var(--color-bg);
+        color: var(--color-sanjuan-blue);
+        border: .0667rem solid var(--color-sanjuan-blue);
+
+        &:hover{
+            background-color: var(--color-sanjuan-blue);
+            color: var(--color-link-water-white);
+        }
+        
+        &:disabled{
+            opacity: .5;
+        }
     }
 }
