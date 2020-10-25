@@ -25,23 +25,9 @@
                 align-items: center;
             }
 
-            &__open,
-            &__close{
-                display: block;
-                width: 1.6rem;
-                height: 1.6rem;
-                background-repeat: no-repeat;
-                background-position: center;
-            }
-
-            &__open{
-                background-image: url(/starter-code/assets/shared/mobile/menu.svg);
-            }
-
-            &__close{
+            &__toggle--close{
                 margin-left: auto;
                 margin-bottom: 3.2rem;
-                background-image: url(/starter-code/assets/shared/mobile/close.svg);
             }
 
             &__item{
