@@ -3,8 +3,17 @@
 // ********************
 
 .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
     .wrapper{
+        width: 100%;
+        display: inherit;
+        justify-content: inherit;
+        align-items: inherit;
+
+        // Mobile
         padding: 2.667rem 1.6rem;
 
         // Tablet
@@ -22,6 +31,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        
+        @media screen and (max-width: 51.1rem){
+            width: 100%;
+        }
 
         &__logo{
             max-width: 9rem;
@@ -41,6 +54,10 @@
                 width: 80%;
                 height: 100%;
                 padding: 3.2rem 1.6rem;
+            }
+
+            @media screen and (min-width: 51.2rem){
+                margin-left: 2.667rem;
             }
         }
 
@@ -90,10 +107,10 @@
                 display: none;
             }
         }
-        .btn--desktop{
-            @media screen and (max-width: 51.1rem){
-                display: none;
-            }
+    }
+    .btn--desktop{
+        @media screen and (max-width: 51.1rem){
+            display: none;
         }
     }
 }
