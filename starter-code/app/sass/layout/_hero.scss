@@ -1,0 +1,27 @@
+// ********************
+// Hero Styles
+// ********************
+
+.hero{
+    text-align: center;
+
+    .wrapper{
+        width: 100%;
+        display: inherit;
+        justify-content: inherit;
+        align-items: inherit;
+
+        // Mobile
+        padding: 2.667rem 1.6rem;
+
+        // Tablet
+        @media screen and (min-width: 51.1rem){
+            padding: 2.667rem;
+        }
+
+        // Desktop
+        @media screen and (min-width: 96rem){
+            padding: 2.667rem 11rem;
+        }
+    }
+}
