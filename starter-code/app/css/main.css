@@ -720,7 +720,7 @@ body {
   margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 96rem) {
+@media screen and (max-width: 70rem) {
   .hero .form {
     margin-left: auto;
     margin-right: auto;
