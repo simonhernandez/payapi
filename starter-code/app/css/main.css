@@ -755,4 +755,22 @@ body {
             order: 2;
   }
 }
+
+.partners__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.partners__item {
+  width: 50%;
+}
+
+@media screen and (min-width: 51.1rem) {
+  .partners__item {
+    width: 30%;
+  }
+}
 /*# sourceMappingURL=main.css.map */

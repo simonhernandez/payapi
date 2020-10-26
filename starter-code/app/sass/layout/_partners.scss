@@ -1,0 +1,12 @@
+.partners{
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__item{
+        width: 50%;
+        @media screen and (min-width: 51.1rem){
+            width: 30%;
+        }
+    }
+}
