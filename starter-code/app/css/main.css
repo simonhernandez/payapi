@@ -672,4 +672,32 @@ body {
             align-items: center;
   }
 }
+
+.hero {
+  text-align: center;
+}
+
+.hero .wrapper {
+  width: 100%;
+  display: inherit;
+  -webkit-box-pack: inherit;
+      -ms-flex-pack: inherit;
+          justify-content: inherit;
+  -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+          align-items: inherit;
+  padding: 2.667rem 1.6rem;
+}
+
+@media screen and (min-width: 51.1rem) {
+  .hero .wrapper {
+    padding: 2.667rem;
+  }
+}
+
+@media screen and (min-width: 96rem) {
+  .hero .wrapper {
+    padding: 2.667rem 11rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */
