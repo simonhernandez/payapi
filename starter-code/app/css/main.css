@@ -250,10 +250,6 @@ body {
   background-image: url(/starter-code/assets/shared/mobile/close.svg);
 }
 
-.form {
-  margin: 0 auto;
-}
-
 @media screen and (min-width: 51.1rem) {
   .form--cta {
     display: -webkit-box;
@@ -263,6 +259,7 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between;
     background-color: var(--color-link-water-white);
+    width: 100%;
     max-width: 29.667rem;
     border-radius: 1.6rem;
   }
