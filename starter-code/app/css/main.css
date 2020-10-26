@@ -617,4 +617,56 @@ body {
 .footer .social__list > *:not(:last-child) {
   margin-right: 1.6rem;
 }
+
+.cta-box {
+  text-align: center;
+}
+
+.cta-box .wrapper {
+  width: 100%;
+  display: inherit;
+  -webkit-box-orient: inherit;
+  -webkit-box-direction: inherit;
+      -ms-flex-direction: inherit;
+          flex-direction: inherit;
+  -webkit-box-pack: inherit;
+      -ms-flex-pack: inherit;
+          justify-content: inherit;
+  -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+          align-items: inherit;
+  padding: 5.33rem 1.6rem;
+}
+
+@media screen and (min-width: 51.1rem) {
+  .cta-box .wrapper {
+    padding: 6.667rem 10.8rem;
+  }
+}
+
+@media screen and (min-width: 96rem) {
+  .cta-box .wrapper {
+    padding: 6.4rem 11rem;
+  }
+}
+
+@media screen and (max-width: 96rem) {
+  .cta-box .heading {
+    margin-bottom: 2.133rem;
+  }
+}
+
+@media screen and (min-width: 96rem) {
+  .cta-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 /*# sourceMappingURL=main.css.map */

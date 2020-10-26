@@ -1,0 +1,41 @@
+// ********************
+// CTA Box Styles
+// ********************
+
+.cta-box{
+    text-align: center;
+    
+    .wrapper{
+        width: 100%;
+        display: inherit;
+        flex-direction: inherit;
+        justify-content: inherit;
+        align-items: inherit;
+
+        // Mobile
+        padding: 5.33rem 1.6rem;
+    
+        // Tablet 
+        @media screen and (min-width: 51.1rem){
+            padding: 6.667rem 10.8rem;
+        }
+    
+        // Desktop
+        @media screen and (min-width: 96rem){
+            padding: 6.4rem 11rem;
+        }
+    }
+
+    .heading{
+        @media screen and (max-width: 96rem){
+            margin-bottom: 2.133rem;
+        }
+    }
+
+    // Desktop
+    @media screen and (min-width: 96rem){
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
