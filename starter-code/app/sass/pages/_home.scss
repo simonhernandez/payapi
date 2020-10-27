@@ -1,0 +1,26 @@
+// ********************
+// Home Styles
+// ********************
+
+.partners{
+    background-color: var(--color-mirage-blue);
+    text-align: center;
+
+    .wrapper{
+        padding: 5rem 1.6rem;
+    }
+
+
+    .heading{
+        color: var(--color-link-water-white);
+        margin-bottom: 1rem;
+    }
+
+    .paragraph{
+        margin-bottom: 2rem;
+    }
+
+    &__list{
+        margin: 0 1.6rem;
+    }
+}

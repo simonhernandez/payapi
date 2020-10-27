@@ -891,4 +891,26 @@ body {
       grid-template-rows: inherit;
       grid-template-areas: inherit;
 }
+
+.partners {
+  background-color: var(--color-mirage-blue);
+  text-align: center;
+}
+
+.partners .wrapper {
+  padding: 5rem 1.6rem;
+}
+
+.partners .heading {
+  color: var(--color-link-water-white);
+  margin-bottom: 1rem;
+}
+
+.partners .paragraph {
+  margin-bottom: 2rem;
+}
+
+.partners__list {
+  margin: 0 1.6rem;
+}
 /*# sourceMappingURL=main.css.map */
