@@ -6,7 +6,7 @@
     text-align: center;
 
     // Desktop
-    @media screen and (min-width: 96rem){
+    @include breakpoint-up(large){
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -19,24 +19,24 @@
         padding: 5.33rem 1.6rem;
     
         // Tablet 
-        @media screen and (min-width: 51.1rem){
+        @include breakpoint-up(medium){
             padding: 6.667rem 10.8rem;
         }
     
         // Desktop
-        @media screen and (min-width: 96rem){
+        @include breakpoint-up(large){
             padding: 6.4rem 11rem;
         }
     }
 
     .heading{
-        @media screen and (max-width: 96rem){
+        @include breakpoint-down(medium){
             margin-bottom: 2.133rem;
         }
     }
 
     .form{
-        @media screen and (max-width: 96rem){
+        @include breakpoint-down(medium){
             margin: 0 auto;
         }
     }

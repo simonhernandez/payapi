@@ -7,7 +7,7 @@
 .form{
 
     &--cta{
-        @media screen and (min-width: 51.1rem){
+        @include breakpoint-up(medium){
             display: flex;
             justify-content: space-between;
             background-color: var(--color-link-water-white);
@@ -21,7 +21,7 @@
             border-radius: 1.6rem;
             padding: 1rem 1.8rem;
             
-            @media screen and (max-width: 51.1rem){
+            @include breakpoint-down(small){
                 display: block;
                 width: 100%;
             }
@@ -29,7 +29,7 @@
         
         > *:not(:last-child){
             
-            @media screen and (max-width: 51.1rem){
+            @include breakpoint-down(small){
                 margin-bottom: 1rem;
             }
         }

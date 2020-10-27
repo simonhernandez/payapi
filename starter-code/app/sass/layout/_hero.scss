@@ -12,18 +12,18 @@
         padding: 0 1.6rem 5.33rem;
 
         // Tablet
-        @media screen and (min-width: 51.1rem){
+        @include breakpoint-up(medium){
             padding: 0 6.4rem 6.667rem;
         }
 
         // Desktop
-        @media screen and (min-width: 96rem){
+        @include breakpoint-up(large){
             padding: 0 11rem 5rem;
         }
     }
 
     &__image-container{
-        @media screen and (max-width: 96rem){
+        @include breakpoint-down(medium){
             // margin-bottom: 1.6rem;
             // max-width: 10.667rem;
         }
@@ -41,14 +41,14 @@
     .form{
         margin-bottom: 1rem;
 
-        @media screen and (max-width: 70rem){
+        @include breakpoint-down(medium){
             margin-left: auto;
             margin-right: auto;
         }
     }
 
     // Desktop
-    @media screen and (min-width: 96rem){
+    @include breakpoint-up(large){
         text-align: initial;
         display: grid;
         grid-template-columns: repeat(12, 1fr);

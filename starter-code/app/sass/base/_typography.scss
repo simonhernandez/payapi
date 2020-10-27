@@ -64,7 +64,7 @@ body{
     &__item{
         font-weight: var(--fw-bold);
 
-        @media screen and (max-width: 51.1rem){
+        @include breakpoint-down(small){
             font-size: 1.33rem;
         }
     }

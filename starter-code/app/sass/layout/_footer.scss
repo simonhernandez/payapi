@@ -9,7 +9,7 @@
     align-items: center;
     
     // Mobile
-    @media screen and (max-width: 51.1rem){
+    @include breakpoint-down(small){
         flex-direction: column;
     }
     
@@ -20,12 +20,12 @@
         padding: 2.667rem 0;
 
         // Tablet
-        @media screen and (min-width: 51.1rem){
+        @include breakpoint-up(medium){
             padding: 2.667rem;
         }
 
         // Desktop
-        @media screen and (min-width: 96rem){
+        @include breakpoint-up(large){
             padding: 2.667rem 11rem;
         }
 
@@ -33,18 +33,18 @@
 
     .nav{
 
-        @media screen and (min-width: 51.2rem){
+        @include breakpoint-up(medium){
             display: flex;
         }
 
         > *{
-            @media screen and (max-width: 51.1rem){
+            @include breakpoint-down(small){
                 margin-bottom: 2.667rem;
             }
         }
 
         &__list{
-            @media screen and (min-width: 51.2rem){
+            @include breakpoint-up(medium){
                 display: flex;
                 align-items: center;
                 margin-left: 4.267rem;
@@ -52,11 +52,11 @@
         }
 
         &__item{
-            @media screen and (max-width: 51.1rem){
+            @include breakpoint-down(small){
                 margin-bottom: 2rem;
                 text-align: center;
             }
-            @media screen and (min-width: 51.2rem){
+            @include breakpoint-up(medium){
                 margin-right: 2.667rem;
             }
         }
