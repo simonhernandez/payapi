@@ -23,14 +23,15 @@
     }
 
     &__image-container{
+        // Mobile & Tablet
         @include breakpoint-down(medium){
-            // margin-bottom: 1.6rem;
-            // max-width: 10.667rem;
+            max-width: 20rem;
+            margin: 0 auto;
         }
-        
-        img, svg{
-            margin-left: auto;
-            margin-right: auto;
+        // Desktop
+        @include breakpoint-up(large){
+            display: flex;
+            align-items: center;
         }
     }
 
@@ -67,6 +68,4 @@
             order: 2;
         }
     }
-
-
 }

@@ -695,9 +695,22 @@ body {
   }
 }
 
-.hero__image-container img, .hero__image-container svg {
-  margin-left: auto;
-  margin-right: auto;
+@media screen and (max-width: 68.2em) {
+  .hero__image-container {
+    max-width: 20rem;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 68.267em) {
+  .hero__image-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .hero .heading {
