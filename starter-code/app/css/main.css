@@ -757,6 +757,28 @@ body {
   }
 }
 
+.features .feature {
+  text-align: center;
+}
+
+.features .feature .heading {
+  margin-bottom: 1.6rem;
+}
+
+.features .feature__image-container {
+  margin: 0 auto;
+  background-image: url(/starter-code/assets/home/desktop/illustration-easy-to-implement.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: 95%;
+  max-width: 380px;
+  height: 250px;
+}
+
+.features .feature img {
+  display: none;
+}
+
 .partners__list {
   display: -webkit-box;
   display: -ms-flexbox;

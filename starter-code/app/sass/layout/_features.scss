@@ -1,0 +1,26 @@
+// ********************
+// Features Styles
+// ********************
+
+.features{
+
+    .feature{
+        text-align: center;
+
+        .heading{
+            margin-bottom: 1.6rem;
+        }
+        &__image-container{
+            margin: 0 auto;
+            background-image: url(/starter-code/assets/home/desktop/illustration-easy-to-implement.svg);
+            background-repeat: no-repeat;
+            background-position: 100% 0;
+            background-size: 95%;
+            max-width: 380px;
+            height: 250px;
+        }
+        img{
+            display: none;
+        }
+    }
+}
