@@ -5,6 +5,7 @@
     }
     &__item{
         width: 50%;
+        margin-bottom: 2.6rem;
         @include breakpoint-up(medium){
             width: 30%;
         }
