@@ -18,10 +18,44 @@
     }
 
     .feature{
-        margin-bottom: 6.667rem;
+        @include breakpoint-down(small){
+            margin-bottom: 6.667rem;
+        }
 
-        .heading{
-            margin-bottom: 1.6rem;
+        @include breakpoint-up(large){
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &--02{
+            .feature__image-container{
+                order: 2;
+
+                img{
+                    margin-left: auto;
+                }
+            }
+            .feature__text-container{
+                order: 1;
+            }
+        }
+
+        
+        &__text-container{
+            width: 50%;
+            max-width: 29.667rem;
+            
+            @include breakpoint-up(large){
+                text-align: left;
+            }
+            .heading{
+                margin-bottom: 1.6rem;
+            }
+        }
+
+        &__image-container{
+            width: 50%;
         }
     }
     &__list{
