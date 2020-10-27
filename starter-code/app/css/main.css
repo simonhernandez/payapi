@@ -381,13 +381,6 @@ body {
 
 .header .wrapper {
   width: 100%;
-  display: inherit;
-  -webkit-box-pack: inherit;
-      -ms-flex-pack: inherit;
-          justify-content: inherit;
-  -webkit-box-align: inherit;
-      -ms-flex-align: inherit;
-          align-items: inherit;
   padding: 2.667rem 1.6rem;
 }
 
@@ -537,17 +530,6 @@ body {
 
 .footer .wrapper {
   width: 100%;
-  display: inherit;
-  -webkit-box-orient: inherit;
-  -webkit-box-direction: inherit;
-      -ms-flex-direction: inherit;
-          flex-direction: inherit;
-  -webkit-box-pack: inherit;
-      -ms-flex-pack: inherit;
-          justify-content: inherit;
-  -webkit-box-align: inherit;
-      -ms-flex-align: inherit;
-          align-items: inherit;
   padding: 2.667rem 0;
 }
 
@@ -679,19 +661,6 @@ body {
 
 .hero .wrapper {
   width: 100%;
-  display: inherit;
-  -webkit-box-pack: inherit;
-      -ms-flex-pack: inherit;
-          justify-content: inherit;
-  -webkit-box-align: inherit;
-      -ms-flex-align: inherit;
-          align-items: inherit;
-  grid-column: 1/-1;
-  -ms-grid-columns: inherit;
-      grid-template-columns: inherit;
-  -ms-grid-rows: inherit;
-      grid-template-rows: inherit;
-      grid-template-areas: inherit;
   padding: 0 1.6rem 5.33rem;
 }
 
@@ -772,5 +741,21 @@ body {
   .partners__item {
     width: 30%;
   }
+}
+
+.wrapper {
+  display: inherit;
+  -webkit-box-pack: inherit;
+      -ms-flex-pack: inherit;
+          justify-content: inherit;
+  -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+          align-items: inherit;
+  grid-column: 1/-1;
+  -ms-grid-columns: inherit;
+      grid-template-columns: inherit;
+  -ms-grid-rows: inherit;
+      grid-template-rows: inherit;
+      grid-template-areas: inherit;
 }
 /*# sourceMappingURL=main.css.map */
