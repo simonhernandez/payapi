@@ -3,24 +3,41 @@
 // ********************
 
 .features{
+    text-align: center;
+
+    .wrapper{
+        padding: 5.33rem 1.6rem;
+
+        @include breakpoint-up(medium){
+            padding: 6.667rem 2.6rem 3.33rem;
+        }
+
+        @include breakpoint-up(large){
+            padding: 10rem 11rem 5rem;
+        }
+    }
 
     .feature{
-        text-align: center;
+        margin-bottom: 6.667rem;
 
         .heading{
             margin-bottom: 1.6rem;
         }
-        &__image-container{
-            margin: 0 auto;
-            background-image: url(/starter-code/assets/home/desktop/illustration-easy-to-implement.svg);
-            background-repeat: no-repeat;
-            background-position: 100% 0;
-            background-size: 95%;
-            max-width: 380px;
-            height: 250px;
+    }
+    &__list{
+        @include breakpoint-up(medium){
+            display: flex;
         }
-        img{
-            display: none;
-        }
+    }
+    &__item{
+        margin-bottom: 3.2rem;
+    }
+    &__icon img{
+        margin: 0 auto;
+        margin-bottom: 2.133rem;
+    }
+
+    &__text .heading{
+        margin-bottom: 1.067rem;
     }
 }

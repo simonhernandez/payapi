@@ -757,26 +757,53 @@ body {
   }
 }
 
-.features .feature {
+.features {
   text-align: center;
+}
+
+.features .wrapper {
+  padding: 5.33rem 1.6rem;
+}
+
+@media screen and (min-width: 42.667em) {
+  .features .wrapper {
+    padding: 6.667rem 2.6rem 3.33rem;
+  }
+}
+
+@media screen and (min-width: 68.267em) {
+  .features .wrapper {
+    padding: 10rem 11rem 5rem;
+  }
+}
+
+.features .feature {
+  margin-bottom: 6.667rem;
 }
 
 .features .feature .heading {
   margin-bottom: 1.6rem;
 }
 
-.features .feature__image-container {
-  margin: 0 auto;
-  background-image: url(/starter-code/assets/home/desktop/illustration-easy-to-implement.svg);
-  background-repeat: no-repeat;
-  background-position: 100% 0;
-  background-size: 95%;
-  max-width: 380px;
-  height: 250px;
+@media screen and (min-width: 42.667em) {
+  .features__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
-.features .feature img {
-  display: none;
+.features__item {
+  margin-bottom: 3.2rem;
+}
+
+.features__icon img {
+  margin: 0 auto;
+  margin-bottom: 2.133rem;
+}
+
+.features__text .heading {
+  margin-bottom: 1.067rem;
 }
 
 .partners__list {
