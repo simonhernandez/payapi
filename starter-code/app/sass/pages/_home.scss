@@ -5,22 +5,50 @@
 .partners{
     background-color: var(--color-mirage-blue);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @include breakpoint-up(large){
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
 
     .wrapper{
+        width: 100%;
         padding: 5rem 1.6rem;
+
+        @include breakpoint-up(medium){
+            padding: 5.867rem 7.733rem;
+        }
+
+        @include breakpoint-up(large){
+            padding: 6.667rem 11rem;
+        }
     }
 
+    &__text-container{
+        max-width: 29.667rem;
 
-    .heading{
-        color: var(--color-link-water-white);
-        margin-bottom: 1rem;
+        .heading{
+            color: var(--color-link-water-white);
+            margin-bottom: 1rem;
+        }
+    
+        .paragraph{
+            margin-bottom: 2rem;
+        }
     }
 
-    .paragraph{
-        margin-bottom: 2rem;
-    }
 
     &__list{
-        margin: 0 1.6rem;
+        @include breakpoint-down(small){
+            margin: 0 1.6rem;
+        }
+        @include breakpoint-up(large){
+            order: 2;
+        }
     }
 }
