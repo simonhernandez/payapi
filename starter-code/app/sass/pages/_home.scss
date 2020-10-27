@@ -49,6 +49,9 @@
         }
         @include breakpoint-up(large){
             order: 2;
+            margin-left: 4.667rem;
+        }
+        @include breakpoint-up(xlarge){
             margin-left: 8.667rem;
         }
     }
