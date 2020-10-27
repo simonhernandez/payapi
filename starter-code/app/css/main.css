@@ -116,17 +116,41 @@ body {
 
 .heading--1-large {
   font-size: var(--fs-h1-l);
-  line-height: 4.8rem;
+  line-height: 2.4rem;
+}
+
+@media screen and (min-width: 42.667em) {
+  .heading--1-large {
+    line-height: 3.733rem;
+  }
+}
+
+@media screen and (min-width: 68.267em) {
+  .heading--1-large {
+    line-height: 4.8rem;
+  }
 }
 
 .heading--1-small {
   font-size: var(--fs-h1-s);
-  line-height: 3.733rem;
+  line-height: 2.4rem;
+}
+
+@media screen and (min-width: 42.667em) {
+  .heading--1-small {
+    line-height: 3.733rem;
+  }
 }
 
 .heading--2 {
   font-size: var(--fs-h2);
-  line-height: 3.733rem;
+  line-height: 2.4rem;
+}
+
+@media screen and (min-width: 42.667em) {
+  .heading--2 {
+    line-height: 3.733rem;
+  }
 }
 
 .heading--3 {
@@ -134,9 +158,15 @@ body {
 }
 
 .heading--3-large {
+  color: var(--color-charm-pink);
   font-size: var(--fs-h3-l);
   line-height: 2.667rem;
-  color: var(--color-charm-pink);
+}
+
+@media screen and (min-width: 42.667em) {
+  .heading--3-large {
+    line-height: 3.733rem;
+  }
 }
 
 .heading--3-small {

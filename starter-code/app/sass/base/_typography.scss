@@ -19,17 +19,33 @@ body{
 
     &--1-large{
         font-size: var(--fs-h1-l);
-        line-height: 4.8rem;
+        line-height: 2.4rem;
+
+        @include breakpoint-up(medium){
+            line-height: 3.733rem;
+        }
+
+        @include breakpoint-up(large){
+            line-height: 4.8rem;
+        }
     }
 
     &--1-small{
         font-size: var(--fs-h1-s);
-        line-height: 3.733rem;
+        line-height: 2.4rem;
+
+        @include breakpoint-up(medium){
+            line-height: 3.733rem;
+        }
     }
 
     &--2{
         font-size: var(--fs-h2);
-        line-height: 3.733rem;
+        line-height: 2.4rem;
+
+        @include breakpoint-up(medium){
+            line-height: 3.733rem;
+        }
     }
 
     &--3{
@@ -37,9 +53,13 @@ body{
     }
 
     &--3-large{
+        color: var(--color-charm-pink);
         font-size: var(--fs-h3-l);
         line-height: 2.667rem;
-        color: var(--color-charm-pink);
+
+        @include breakpoint-up(medium){
+            line-height: 3.733rem;
+        }
     }
 
     &--3-small{
