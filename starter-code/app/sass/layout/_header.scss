@@ -14,12 +14,12 @@
         padding: 2.667rem 1.6rem;
 
         // Tablet
-        @media screen and (min-width: 51.1rem){
+        @include breakpoint-up(medium){
             padding: 2.667rem;
         }
 
         // Desktop
-        @media screen and (min-width: 96rem){
+        @include breakpoint-up(large){
             padding: 2.667rem 11rem;
         }
     }
@@ -29,7 +29,7 @@
         justify-content: space-between;
         align-items: center;
         
-        @media screen and (max-width: 51.1rem){
+        @include breakpoint-down(small){
             width: 100%;
         }
 
@@ -41,7 +41,7 @@
             display: flex;
             align-items: center;
 
-            @media screen and (max-width: 51.1rem){
+            @include breakpoint-down(small){
                 flex-direction: column;
                 background-color: var(--color-mirage-blue);
                 position: fixed;
@@ -53,19 +53,19 @@
                 padding: 3.2rem 1.6rem;
             }
 
-            @media screen and (min-width: 51.2rem){
+            @include breakpoint-up(medium){
                 margin-left: 2.667rem;
             }
         }
 
         &__toggle{
-            @media screen and (min-width: 51.2rem){
+            @include breakpoint-up(medium){
                 display: none;
             }
         }
         
         &__toggle--close{
-            @media screen and (max-width: 51.1rem){
+            @include breakpoint-down(small){
                 margin-left: auto;
                 margin-bottom: 3.2rem;
             }
@@ -73,7 +73,7 @@
         
         &__item{
             
-            @media screen and (max-width: 51.1rem){
+            @include breakpoint-down(small){
                 width: 100%;
                 margin-bottom: 2.133rem;
                 text-align: center;
@@ -94,19 +94,19 @@
                 }
             }
 
-            @media screen and (min-width: 51.2rem){
+            @include breakpoint-up(medium){
                 margin-right: 2.667rem;
             }
         }
         .btn--mobile{
             width: 100%;
-            @media screen and (min-width: 51.2rem){
+            @include breakpoint-up(medium){
                 display: none;
             }
         }
     }
     .btn--desktop{
-        @media screen and (max-width: 51.1rem){
+        @include breakpoint-down(small){
             display: none;
         }
     }

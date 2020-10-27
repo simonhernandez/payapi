@@ -41,7 +41,7 @@
 }
 
 // Tablet
-@media screen and (min-width: 51.1rem){
+@include breakpoint-up(medium){
     :root{
         --fs-h1-l: 3.2rem;
         --fs-h1-s: 3.2rem;
@@ -54,7 +54,7 @@
 }
 
 // Desktop
-@media screen and (min-width: 96rem){
+@include breakpoint-up(large){
     :root{
         --fs-h1-l: 4.8rem;
         --fs-h1-s: 3.733rem;
