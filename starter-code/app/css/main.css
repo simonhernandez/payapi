@@ -751,6 +751,10 @@ body {
   -webkit-box-align: inherit;
       -ms-flex-align: inherit;
           align-items: inherit;
+  -webkit-box-orient: inherit;
+  -webkit-box-direction: inherit;
+      -ms-flex-direction: inherit;
+          flex-direction: inherit;
   grid-column: 1/-1;
   -ms-grid-columns: inherit;
       grid-template-columns: inherit;
