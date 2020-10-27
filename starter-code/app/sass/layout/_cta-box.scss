@@ -4,13 +4,16 @@
 
 .cta-box{
     text-align: center;
+
+    // Desktop
+    @media screen and (min-width: 96rem){
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     
     .wrapper{
         width: 100%;
-        display: inherit;
-        flex-direction: inherit;
-        justify-content: inherit;
-        align-items: inherit;
 
         // Mobile
         padding: 5.33rem 1.6rem;
@@ -36,12 +39,5 @@
         @media screen and (max-width: 96rem){
             margin: 0 auto;
         }
-    }
-
-    // Desktop
-    @media screen and (min-width: 96rem){
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
 }
