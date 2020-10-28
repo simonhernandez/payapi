@@ -40,7 +40,7 @@
             }
         }
 
-        &--02{
+        &:nth-of-type(even){
             .feature__image-container{
                 order: 2;
 

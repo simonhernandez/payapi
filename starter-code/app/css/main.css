@@ -813,17 +813,17 @@ body {
   }
 }
 
-.features .feature--02 .feature__image-container {
+.features .feature:nth-of-type(even) .feature__image-container {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
 }
 
-.features .feature--02 .feature__image-container img {
+.features .feature:nth-of-type(even) .feature__image-container img {
   margin-left: auto;
 }
 
-.features .feature--02 .feature__text-container {
+.features .feature:nth-of-type(even) .feature__text-container {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
