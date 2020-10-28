@@ -881,7 +881,16 @@ body {
 
 .partners__item {
   margin-bottom: 2.6rem;
-  width: 50%;
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media screen and (min-width: 42.667em) {
@@ -990,17 +999,5 @@ body {
   .partners__list {
     margin-left: 8.667rem;
   }
-}
-
-.partners__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 /*# sourceMappingURL=main.css.map */
