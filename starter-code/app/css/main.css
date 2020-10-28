@@ -647,18 +647,18 @@ body {
 
 .cta-box .wrapper {
   width: 100%;
-  padding: 5.33rem 1.6rem;
+  padding: 2.667rem 1.6rem 5.33rem;
 }
 
 @media screen and (min-width: 42.667em) {
   .cta-box .wrapper {
-    padding: 6.667rem 10.8rem;
+    padding: 3.333rem 10.8rem 6.667rem;
   }
 }
 
 @media screen and (min-width: 68.267em) {
   .cta-box .wrapper {
-    padding: 6.4rem 11rem;
+    padding: 3.2rem 11rem 6.4rem;
   }
 }
 
@@ -762,7 +762,7 @@ body {
 }
 
 .features .wrapper {
-  padding: 5.33rem 1.6rem;
+  padding: 5.33rem 1.6rem 2.667rem;
 }
 
 @media screen and (min-width: 42.667em) {
@@ -773,7 +773,7 @@ body {
 
 @media screen and (min-width: 68.267em) {
   .features .wrapper {
-    padding: 10rem 11rem 5rem;
+    padding: 10rem 11rem 3.33rem;
   }
 }
 
