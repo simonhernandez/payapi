@@ -63,15 +63,19 @@
             }
         }
     }
-    
+
     &__list{
         @include breakpoint-up(medium){
             display: flex;
+            justify-content: space-between;
         }
     }
 
     &__item{
         margin-bottom: 3.2rem;
+        @include breakpoint-up(medium){
+            width: 30%;
+        }
     }
 
     &__icon img{
