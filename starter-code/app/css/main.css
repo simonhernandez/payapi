@@ -935,6 +935,39 @@ body {
       grid-template-areas: inherit;
 }
 
+.hero {
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  z-index: var(--z-back);
+  background-image: url(/starter-code/assets/shared/desktop/bg-pattern-circle.svg);
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 68.2em) {
+  .hero::before {
+    height: 40%;
+    left: -10%;
+    right: -10%;
+    top: -25%;
+    background-position: center 100%;
+    background-size: 120%;
+  }
+}
+
+@media screen and (min-width: 68.267em) {
+  .hero::before {
+    height: 100vh;
+    width: 54%;
+    right: -15%;
+    top: -50%;
+    background-size: contain;
+  }
+}
+
 .partners {
   background-color: var(--color-mirage-blue);
   text-align: center;
@@ -1024,14 +1057,12 @@ body {
 @media screen and (min-width: 93.33em) {
   .features::before {
     content: '';
-    height: 780px;
-    width: 390px;
     height: 50%;
     width: 25%;
     position: absolute;
     right: 0;
     top: 28%;
-    z-index: -1;
+    z-index: var(--z-back);
     background-image: url(/starter-code/assets/shared/desktop/bg-pattern-circle.svg);
     background-repeat: no-repeat;
   }

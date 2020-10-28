@@ -2,6 +2,33 @@
 // Home Styles
 // ********************
 
+.hero{
+    position: relative;
+
+    &::before{
+        content: '';
+        position: absolute;
+        z-index: var(--z-back);
+        background-image: url(/starter-code/assets/shared/desktop/bg-pattern-circle.svg);
+        background-repeat: no-repeat;
+        @include breakpoint-down(medium){
+            height: 40%;
+            left: -10%;
+            right: -10%;
+            top: -25%;
+            background-position: center 100%;
+            background-size: 120%;
+        }
+        @include breakpoint-up(large){
+            height: 100vh;
+            width: 54%;
+            right: -15%;
+            top: -50%;
+            background-size: contain;
+        }
+    }
+}
+
 .partners{
     background-color: var(--color-mirage-blue);
     text-align: center;
@@ -63,14 +90,12 @@
     &::before{
         @include breakpoint-up(xlarge){
             content: '';
-            height: 780px;
-            width: 390px;
             height: 50%;
             width: 25%;
             position: absolute;
             right: 0;
             top: 28%;
-            z-index: -1;
+            z-index: var(--z-back);
             background-image: url(/starter-code/assets/shared/desktop/bg-pattern-circle.svg);
             background-repeat: no-repeat;
         }
