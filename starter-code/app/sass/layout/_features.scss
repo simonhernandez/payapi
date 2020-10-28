@@ -28,6 +28,18 @@
             align-items: center;
         }
 
+        &:last-of-type{
+            margin-bottom: 5.33rem;
+
+            @include breakpoint-up(medium){
+                margin-bottom: 6.667rem;
+            }
+
+            @include breakpoint-up(large){
+                margin-bottom: 9.733rem;
+            }
+        }
+
         &--02{
             .feature__image-container{
                 order: 2;

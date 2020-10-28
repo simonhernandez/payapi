@@ -797,6 +797,22 @@ body {
   }
 }
 
+.features .feature:last-of-type {
+  margin-bottom: 5.33rem;
+}
+
+@media screen and (min-width: 42.667em) {
+  .features .feature:last-of-type {
+    margin-bottom: 6.667rem;
+  }
+}
+
+@media screen and (min-width: 68.267em) {
+  .features .feature:last-of-type {
+    margin-bottom: 9.733rem;
+  }
+}
+
 .features .feature--02 .feature__image-container {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
