@@ -31,6 +31,7 @@
 
         &--1{
             margin-bottom: 2.667rem;
+            max-width: 48.667rem;
 
             @include breakpoint-up(medium){
                 margin-bottom: 3.6rem;
