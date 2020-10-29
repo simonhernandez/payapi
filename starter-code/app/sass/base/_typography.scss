@@ -118,4 +118,13 @@ body{
             opacity: .5;
         }
     }
+
+    &__pricing{
+        span{
+            font-family: var(--ff-primary);
+            font-size: var(--fs-big);
+            color: var(--color-sanjuan-blue);
+            line-height: 4.8rem;
+        }
+    }
 }
