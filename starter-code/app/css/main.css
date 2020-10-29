@@ -1153,18 +1153,39 @@ body {
   }
 }
 
-.tier .heading--3 {
+@media screen and (min-width: 42.667em) {
+  .tier__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+}
+
+@media screen and (max-width: 42.6em) {
+  .tier__item {
+    margin-bottom: 3.2rem;
+  }
+}
+
+@media screen and (min-width: 42.667em) {
+  .tier__item {
+    padding: 0 .333rem;
+  }
+}
+
+.tier__item .heading {
   margin-bottom: 1.33rem;
 }
 
-.tier .paragraph {
-  max-width: 18rem;
+.tier__item .paragraph {
+  max-width: 20rem;
   margin: 0 auto;
   margin-bottom: .533rem;
-}
-
-.tier__item {
-  margin-bottom: 3.2rem;
 }
 
 .tier__pricing {
