@@ -51,6 +51,7 @@
         position: absolute;
         background-image: url(/starter-code/assets/shared/desktop/bg-pattern-circle.svg);
         background-repeat: no-repeat;
+        // z-index: var(--z-back);
         @include breakpoint-down(medium){
             height: 60%;
             left: 0%;
