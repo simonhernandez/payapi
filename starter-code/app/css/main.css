@@ -1121,6 +1121,12 @@ body {
   text-align: center;
 }
 
+@media screen and (min-width: 68.267em) {
+  .tier {
+    text-align: initial;
+  }
+}
+
 .tier .wrapper {
   padding: 2.667rem 1.6rem;
 }
@@ -1158,8 +1164,9 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
@@ -1196,7 +1203,13 @@ body {
   margin-bottom: 1.6rem;
 }
 
+.tier__features {
+  margin-bottom: 1.6rem;
+}
+
 .tier__feature {
   margin-bottom: .533rem;
+  text-align: left;
+  padding-left: 5.5rem;
 }
 /*# sourceMappingURL=main.css.map */
