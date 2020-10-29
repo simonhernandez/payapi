@@ -16,6 +16,7 @@
   --fs-h3-s: 1.2rem;
   --fs-h4: 1.6rem;
   --fs-body: 1rem;
+  --fs-big: 3.2rem;
   --fw-reg: 400;
   --fw-bold: 700;
   --z-back: -1;
@@ -1103,5 +1104,67 @@ body {
     background-image: url(/starter-code/assets/shared/desktop/bg-pattern-circle.svg);
     background-repeat: no-repeat;
   }
+}
+
+.tier {
+  text-align: center;
+}
+
+.tier .wrapper {
+  padding: 2.667rem 1.6rem;
+}
+
+@media screen and (min-width: 42.667em) {
+  .tier .wrapper {
+    padding: 3.33rem 2.6rem;
+  }
+}
+
+@media screen and (min-width: 68.267em) {
+  .tier .wrapper {
+    padding: 3.2rem 11rem;
+  }
+}
+
+.tier .heading--1 {
+  margin-bottom: 3.2rem;
+}
+
+@media screen and (min-width: 42.667em) {
+  .tier .heading--1 {
+    margin-bottom: 4.6rem;
+  }
+}
+
+@media screen and (min-width: 42.667em) {
+  .tier .heading--1 {
+    margin-bottom: 4.8rem;
+  }
+}
+
+.tier .heading--3 {
+  margin-bottom: 1.33rem;
+}
+
+.tier .paragraph {
+  max-width: 18rem;
+  margin: 0 auto;
+  margin-bottom: .533rem;
+}
+
+.tier__item {
+  margin-bottom: 3.2rem;
+}
+
+.tier__pricing {
+  margin-bottom: 1.6rem;
+}
+
+.tier hr {
+  margin-bottom: 1.6rem;
+}
+
+.tier__feature {
+  margin-bottom: .533rem;
 }
 /*# sourceMappingURL=main.css.map */
