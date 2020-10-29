@@ -229,6 +229,13 @@ body {
   line-height: 4.8rem;
 }
 
+.info__number {
+  color: var(--color-dark-pink);
+  font-family: var(--ff-primary);
+  font-size: var(--fs-big);
+  line-height: 4.8rem;
+}
+
 .btn {
   display: inline-block;
   padding: 1rem 1.733rem;

@@ -135,3 +135,14 @@ body{
         }
     }
 }
+
+// Typography: About - Info
+
+.info{
+    &__number{
+        color: var(--color-dark-pink);
+        font-family: var(--ff-primary);
+        font-size: var(--fs-big);
+        line-height: 4.8rem;
+    }
+}
