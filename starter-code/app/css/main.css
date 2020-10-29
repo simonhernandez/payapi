@@ -1340,4 +1340,141 @@ body {
     background-image: url(/starter-code/assets/about/desktop/image-team-members.jpg);
   }
 }
+
+@media screen and (max-width: 42.6em) {
+  .info {
+    text-align: center;
+  }
+}
+
+.info .wrapper {
+  padding: 3.2rem 1.6rem 1.6rem;
+}
+
+@media screen and (min-width: 42.667em) {
+  .info .wrapper {
+    padding: 3.33rem 2.6rem;
+  }
+}
+
+@media screen and (min-width: 68.267em) {
+  .info .wrapper {
+    padding: 6.4rem 17.33rem 3.2rem;
+  }
+}
+
+.info__list {
+  margin-bottom: 3.2rem;
+}
+
+@media screen and (min-width: 42.667em) {
+  .info__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.info__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+@media screen and (max-width: 42.6em) {
+  .info__item:not(:last-child) {
+    margin-bottom: 2.133rem;
+  }
+}
+
+@media screen and (max-width: 42.6em) {
+  .info__item:nth-of-type(1) hr:last-of-type {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 42.667em) {
+  .info__item:nth-of-type(2) {
+    margin: 0 .667rem;
+  }
+}
+
+@media screen and (min-width: 42.667em) {
+  .info__item:nth-of-type(2) {
+    margin: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 42.6em) {
+  .info__item:nth-of-type(2) hr {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 42.6em) {
+  .info__item:nth-of-type(3) hr:first-of-type {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 42.667em) {
+  .info .culture,
+  .info .people {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 42.667em) {
+  .info .culture .heading,
+  .info .people .heading {
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+  }
+}
+
+@media screen and (min-width: 42.667em) {
+  .info .culture .paragraph,
+  .info .people .paragraph {
+    -ms-flex-preferred-size: 70%;
+        flex-basis: 70%;
+    max-width: 42.33rem;
+  }
+}
+
+.info .culture {
+  margin-bottom: 3.2rem;
+}
+
+@media screen and (max-width: 42.6em) {
+  .info .culture .heading {
+    margin-bottom: 1.0667rem;
+  }
+}
+
+@media screen and (max-width: 42.6em) {
+  .info .people .heading {
+    margin-bottom: 1.0667rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */
