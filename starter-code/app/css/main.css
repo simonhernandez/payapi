@@ -830,11 +830,15 @@ body {
           order: 1;
 }
 
+.features .feature__text-container {
+  max-width: 29.667rem;
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 68.267em) {
   .features .feature__text-container {
     text-align: left;
     width: 50%;
-    max-width: 29.667rem;
   }
 }
 

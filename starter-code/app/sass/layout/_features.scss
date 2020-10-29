@@ -54,11 +54,12 @@
         }
 
         &__text-container{
+            max-width: 29.667rem;
+            margin: 0 auto;
 
             @include breakpoint-up(large){
                 text-align: left;
                 width: 50%;
-                max-width: 29.667rem;
             }
             .heading{
                 margin-bottom: 1.6rem;
