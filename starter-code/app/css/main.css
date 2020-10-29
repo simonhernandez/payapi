@@ -961,6 +961,9 @@ body {
   -ms-grid-rows: inherit;
       grid-template-rows: inherit;
       grid-template-areas: inherit;
+  -webkit-column-gap: inherit;
+          column-gap: inherit;
+  row-gap: inherit;
 }
 
 .hero {
