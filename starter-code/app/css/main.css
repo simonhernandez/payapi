@@ -1573,6 +1573,7 @@ body {
 
 .contact .partners .heading {
   margin-bottom: 2.133rem;
+  max-width: 29.667rem;
 }
 
 @media screen and (min-width: 42.667em) {
