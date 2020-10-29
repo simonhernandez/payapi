@@ -1,0 +1,92 @@
+// ********************
+// Home Styles
+// ********************
+
+.about{
+    text-align: center;
+
+    @include breakpoint-up(medium){
+        text-align: initial;
+    }
+
+    .wrapper{
+        padding: 3.2rem 1.6rem;
+        @include breakpoint-up(medium){
+            padding: 4.2667rem 2.6rem;
+        }
+        @include breakpoint-up(large){
+            padding: 5.4667rem 17.33rem;
+        }
+    }
+
+    .heading{
+
+        @include breakpoint-down(medium){
+            text-align: center;
+        }
+        &--2{
+            margin-bottom: 2.667rem;
+
+            @include breakpoint-up(medium){
+                margin-bottom: 3.6rem;
+            }
+        }
+
+        &--3{
+            margin-bottom: 1.0667rem;
+
+            @include breakpoint-up(medium){
+                margin-bottom: initial;
+            }
+        }
+    }
+
+    .vision,
+    .business{
+        @include breakpoint-up(medium){
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .heading{
+            @include breakpoint-up(medium){
+                flex-basis: 30%;
+            }
+        }
+
+        .paragraph{
+            @include breakpoint-up(medium){
+                flex-basis: 70%;
+                max-width: 42.33rem;
+            }
+        }
+    }
+
+    .vision{
+        margin-bottom: 3.2rem;
+
+        @include breakpoint-up(medium){
+            margin-bottom: 4.2667rem;
+        }
+    }
+
+}
+
+.banner{
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(/starter-code/assets/about/mobile/image-team-members.jpg);
+
+    @include breakpoint-up(medium){
+        height: 267px;
+        background-image: url(/starter-code/assets/about/tablet/image-team-members.jpg);
+    }
+
+    @include breakpoint-up(large){
+        height: 500px;
+        background-image: url(/starter-code/assets/about/desktop/image-team-members.jpg);
+    }
+}
