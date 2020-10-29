@@ -159,7 +159,7 @@ body {
 }
 
 .heading--3-large {
-  color: var(--color-charm-pink);
+  color: var(--color-dark-pink);
   font-size: var(--fs-h3-l);
   line-height: 2.667rem;
 }
