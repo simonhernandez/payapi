@@ -81,5 +81,11 @@
         margin-bottom: .533rem;
         text-align: left;
         padding-left: 5.5rem;
+
+        &--not-included{
+            svg{
+                opacity: 0;
+            }
+        }
     }
 }

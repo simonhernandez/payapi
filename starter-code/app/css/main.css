@@ -1212,4 +1212,8 @@ body {
   text-align: left;
   padding-left: 5.5rem;
 }
+
+.tier__feature--not-included svg {
+  opacity: 0;
+}
 /*# sourceMappingURL=main.css.map */
