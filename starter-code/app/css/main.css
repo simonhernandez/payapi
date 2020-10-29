@@ -106,7 +106,7 @@ label {
 body {
   font-family: var(--ff-secondary);
   font-size: var(--fs-body);
-  font-weight: var(--fw-reg);
+  font-weight: var(--fw-bold);
   line-height: 1.86rem;
   color: var(--color-light-sanjuan-blue);
 }
@@ -193,6 +193,10 @@ body {
   .nav__item {
     font-size: 1.33rem;
   }
+}
+
+.hero__text-container p {
+  font-weight: var(--fw-reg);
 }
 
 .hero__text-container a {

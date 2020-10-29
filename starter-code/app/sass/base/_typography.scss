@@ -6,7 +6,7 @@
 body{
     font-family: var(--ff-secondary);
     font-size: var(--fs-body);
-    font-weight: var(--fw-reg);
+    font-weight: var(--fw-bold);
     line-height: 1.86rem;
     color: var(--color-light-sanjuan-blue);
 }
@@ -93,6 +93,9 @@ body{
 
 // Typography: Home
 .hero__text-container{
+    p{
+        font-weight: var(--fw-reg);
+    }
     a {
         font-weight: var(--fw-bold);
     }
