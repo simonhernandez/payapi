@@ -152,6 +152,8 @@ body{
 
 .contact{
     .heading{
-        opacity: .75;
+        &--4{
+            opacity: .75;
+        }
     }
 }
