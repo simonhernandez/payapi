@@ -160,7 +160,6 @@ body {
 }
 
 .heading--3-large {
-  color: var(--color-dark-pink);
   font-size: var(--fs-h3-l);
   line-height: 2.667rem;
 }
@@ -209,6 +208,10 @@ body {
 
 .partners .paragraph {
   opacity: .7;
+}
+
+.tier__item .heading {
+  color: var(--color-dark-pink);
 }
 
 .tier__feature--included {
