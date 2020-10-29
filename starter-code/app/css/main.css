@@ -1552,9 +1552,34 @@ body {
   width: 50%;
 }
 
+.contact .partners {
+  background-color: initial;
+}
+
+.contact .partners::before {
+  display: none;
+}
+
 @media screen and (min-width: 68.267em) {
   .contact .partners {
     grid-area: partner;
+    display: initial;
+  }
+}
+
+.contact .partners .heading {
+  margin-bottom: 2.133rem;
+}
+
+@media screen and (min-width: 42.667em) {
+  .contact .partners .heading {
+    margin-bottom: 2.667rem;
+  }
+}
+
+@media screen and (min-width: 68.267em) {
+  .contact .partners__list {
+    margin-left: initial;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -61,8 +61,29 @@
     }
 
     .partners{
+        background-color: initial;
+
+        &::before{
+            display: none;
+        }
+
         @include breakpoint-up(large){
             grid-area: partner;
+            display: initial;
+        }
+        
+        .heading{
+            margin-bottom: 2.133rem;
+
+            @include breakpoint-up(medium){
+                margin-bottom: 2.667rem;
+            }
+        }
+
+        &__list{
+            @include breakpoint-up(large){
+                margin-left: initial;
+            }
         }
     }
 }
