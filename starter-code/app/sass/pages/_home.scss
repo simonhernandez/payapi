@@ -12,24 +12,27 @@
         background-image: url(/starter-code/assets/shared/desktop/bg-pattern-circle.svg);
         background-repeat: no-repeat;
         @include breakpoint-down(medium){
-            height: 40%;
-            left: -10%;
-            right: -10%;
+            height: 60%;
+            left: 0%;
+            right: 0;
             top: -25%;
-            background-position: center 100%;
-            background-size: 120%;
+            background-position: center 120%;
+            background-size: 150%;
         }
         @include breakpoint-up(large){
             height: 100vh;
             width: 54%;
-            right: -15%;
+            right: 0;
             top: -50%;
             background-size: contain;
+            background-position-x: 150px;
         }
     }
 }
 
 .partners{
+    position: relative;
+    overflow: hidden;
     background-color: var(--color-mirage-blue);
     text-align: center;
     display: flex;
@@ -41,6 +44,29 @@
         flex-direction: row;
         justify-content: space-between;
         text-align: left;
+    }
+
+    &::before{
+        content: '';
+        position: absolute;
+        background-image: url(/starter-code/assets/shared/desktop/bg-pattern-circle.svg);
+        background-repeat: no-repeat;
+        @include breakpoint-down(medium){
+            height: 60%;
+            left: 0%;
+            right: 0;
+            top: -10%;
+            background-position: center 120%;
+            background-size: 200%;
+        }
+        @include breakpoint-up(large){
+            height: 140%;
+            width: 54%;
+            left: 0;
+            top: -50%;
+            background-size: contain;
+            background-position-x: -150px;
+        }
     }
 
     .wrapper{
