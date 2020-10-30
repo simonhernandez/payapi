@@ -236,6 +236,12 @@ body {
   opacity: .7;
 }
 
+@media screen and (max-width: 42.6em) {
+  .header .nav__item {
+    color: var(--color-link-water-white);
+  }
+}
+
 .header .nav__item:hover {
   opacity: initial;
 }

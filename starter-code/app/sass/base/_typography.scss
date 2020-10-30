@@ -108,6 +108,11 @@ body{
 .header{
     .nav{
         &__item{
+
+            @include breakpoint-down(small){
+                color: var(--color-link-water-white);
+            }
+
             color: var(--color-sanjuan-blue);
             opacity: .7;
 
