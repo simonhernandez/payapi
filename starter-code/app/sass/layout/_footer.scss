@@ -65,10 +65,18 @@
     .social__list{
         display: flex;
         justify-content: center;
-        
+        align-items: center;
 
         > *:not(:last-child){
             margin-right: 1.6rem;
+        }
+    }
+
+    .social__item{
+        svg{
+            &:hover path{
+                fill: var(--color-charm-pink);
+            }
         }
     }
 }
