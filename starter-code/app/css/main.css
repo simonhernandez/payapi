@@ -469,7 +469,7 @@ body {
   color: var(--color-link-water-white);
   position: absolute;
   left: .35rem;
-  top: 0;
+  top: 25%;
 }
 
 .header {
