@@ -82,11 +82,12 @@ body{
 .form{
     input,
     textarea{
+        line-height: 1.667rem;
         &::placeholder{
+            opacity: .5;
             font-weight: var(--fw-bold);
             font-family: var(--ff-secondary);
             color: var(--color-sanjuan-blue);
-            opacity: .5;
         }
     }
 }
