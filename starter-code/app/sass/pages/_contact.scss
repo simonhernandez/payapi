@@ -51,14 +51,6 @@
         @include breakpoint-up(large){
             grid-area: form;
         }
-
-        > *:not(:last-child){
-            margin-bottom: 1.6rem;
-        }
-
-        .btn{
-            width: 50%;
-        }
     }
 
     .partners{
