@@ -77,6 +77,20 @@ body{
     font-weight: var(--fw-bold);
 }
 
+// Typography: Forms
+
+.form{
+    input,
+    textarea{
+        &::placeholder{
+            font-weight: var(--fw-bold);
+            font-family: var(--ff-secondary);
+            color: var(--color-sanjuan-blue);
+            opacity: .5;
+        }
+    }
+}
+
 // Typography: Navigation
 
 .nav{
