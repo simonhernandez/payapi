@@ -51,11 +51,16 @@
                 width: 80%;
                 height: 100%;
                 padding: 3.2rem 1.6rem;
+                transition: all .25s ease-out;
             }
 
             @include breakpoint-up(medium){
                 margin-left: 2.667rem;
             }
+        }
+
+        .show{
+            right: 0;
         }
 
         &__toggle{
