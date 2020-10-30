@@ -241,6 +241,10 @@ body {
   opacity: .75;
 }
 
+.contact .form__checkbox span {
+  color: var(--color-sanjuan-blue);
+}
+
 .btn {
   display: inline-block;
   padding: 1rem 1.733rem;
@@ -390,13 +394,27 @@ body {
   left: 1rem;
 }
 
+.form--contact .btn {
+  width: 50%;
+}
+
 .form__checkbox {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .form__checkbox > input {
   width: 1.6rem;
   height: 1.6rem;
+  margin-right: 1.733rem;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -1547,14 +1565,6 @@ body {
   .contact .form {
     grid-area: form;
   }
-}
-
-.contact .form > *:not(:last-child) {
-  margin-bottom: 1.6rem;
-}
-
-.contact .form .btn {
-  width: 50%;
 }
 
 .contact .partners {

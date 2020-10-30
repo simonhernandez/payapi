@@ -86,10 +86,14 @@
     // Checkbox
     &__checkbox{
         position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         > input{
             width: 1.6rem;
             height: 1.6rem;
+            margin-right: 1.733rem;
             appearance: none;
             background-color: var(--color-sanjuan-blue);
             opacity: .25;

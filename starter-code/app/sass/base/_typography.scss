@@ -89,8 +89,8 @@ body{
     }
 }
 
-
 // Typography: Home
+
 .hero__text-container{
     p{
         font-weight: var(--fw-reg);
@@ -101,6 +101,7 @@ body{
 }
 
 // Typography: Home - Partners
+
 .partners{
     color: var(--color-link-water-white);
 
@@ -110,6 +111,7 @@ body{
 }
 
 // Typography: Pricing
+
 .tier{
     &__item{
         .heading{
@@ -148,12 +150,20 @@ body{
     }
 }
 
-// Typography: About - Partners
+// Typography: Contact - Partners
 
 .contact{
     .heading{
         &--4{
             opacity: .75;
+        }
+    }
+
+    .form{
+        &__checkbox{
+            span{
+                color: var(--color-sanjuan-blue);
+            }
         }
     }
 }
