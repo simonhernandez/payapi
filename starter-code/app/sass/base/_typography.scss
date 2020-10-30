@@ -104,6 +104,34 @@ body{
     }
 }
 
+// Typography: Header
+.header{
+    .nav{
+        &__item{
+            color: var(--color-sanjuan-blue);
+            opacity: .7;
+
+            &:hover{
+                opacity: initial;
+            }
+        }
+    }
+}
+
+// Typography: Footer
+.footer{
+    .nav{
+        &__item{
+            color: var(--color-link-water-white);
+            opacity: .7;
+
+            &:hover{
+                opacity: initial;
+            }
+        }
+    }
+}
+
 // Typography: Home
 
 .hero__text-container{

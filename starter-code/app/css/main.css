@@ -231,6 +231,24 @@ body {
   }
 }
 
+.header .nav__item {
+  color: var(--color-sanjuan-blue);
+  opacity: .7;
+}
+
+.header .nav__item:hover {
+  opacity: initial;
+}
+
+.footer .nav__item {
+  color: var(--color-link-water-white);
+  opacity: .7;
+}
+
+.footer .nav__item:hover {
+  opacity: initial;
+}
+
 .hero__text-container p {
   font-weight: var(--fw-reg);
 }
