@@ -49,17 +49,9 @@
         textarea{
             border: none;
             background: none;
-            color: var(--color-sanjuan-blue);
-            opacity: .5;
             border-bottom: 0.0667rem solid var(--color-sanjuan-blue);
         }
-        
-        [type="text"]:active,
-        [type="email"]:active,
-        textarea:active{
-            opacity: initial;
-        }
-        
+
         [type="text"]:invalid,
         [type="email"]:invalid,
         textarea:invalid{
@@ -79,7 +71,7 @@
 
         // Button
         .btn{
-            width: 50%;
+            width: 35%;
         }
     }
 

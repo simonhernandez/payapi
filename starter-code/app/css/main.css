@@ -403,15 +403,7 @@ body {
 .form--contact textarea {
   border: none;
   background: none;
-  color: var(--color-sanjuan-blue);
-  opacity: .5;
   border-bottom: 0.0667rem solid var(--color-sanjuan-blue);
-}
-
-.form--contact [type="text"]:active,
-.form--contact [type="email"]:active,
-.form--contact textarea:active {
-  opacity: initial;
 }
 
 .form--contact [type="text"]:invalid,
@@ -432,7 +424,7 @@ body {
 }
 
 .form--contact .btn {
-  width: 50%;
+  width: 35%;
 }
 
 .form__checkbox {
