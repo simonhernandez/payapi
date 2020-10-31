@@ -158,10 +158,6 @@ body {
   }
 }
 
-.heading--3 {
-  font-family: var(--ff-secondary);
-}
-
 .heading--3-large {
   font-size: var(--fs-h3-l);
   line-height: 2.667rem;
@@ -174,6 +170,7 @@ body {
 }
 
 .heading--3-small {
+  font-family: var(--ff-secondary);
   font-size: var(--fs-h3-s);
   line-height: 1.667rem;
 }

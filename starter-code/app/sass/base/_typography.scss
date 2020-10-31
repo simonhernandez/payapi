@@ -50,21 +50,20 @@ body{
     }
 
     &--3{
-        font-family: var(--ff-secondary);
-    }
-
-    &--3-large{
-        font-size: var(--fs-h3-l);
-        line-height: 2.667rem;
-
-        @include breakpoint-up(medium){
-            line-height: 3.733rem;
+        &-large{
+            font-size: var(--fs-h3-l);
+            line-height: 2.667rem;
+            
+            @include breakpoint-up(medium){
+                line-height: 3.733rem;
+            }
         }
-    }
 
-    &--3-small{
-        font-size: var(--fs-h3-s);
-        line-height: 1.667rem;
+        &-small{
+            font-family: var(--ff-secondary);
+            font-size: var(--fs-h3-s);
+            line-height: 1.667rem;
+        }
     }
 
     &--4{
