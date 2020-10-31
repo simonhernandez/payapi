@@ -2,8 +2,7 @@
 const btnOpen = document.getElementById('nav-open');
 const btnClose = document.getElementById('nav-close');
 const menu = document.getElementById('nav-menu');
-
-// Functions
+const 
 
 // Main
 btnOpen.addEventListener('click', () => {
@@ -12,3 +11,5 @@ btnOpen.addEventListener('click', () => {
 btnClose.addEventListener('click', () => {
     menu.classList.toggle('show');
 });
+
+// Functions
