@@ -459,6 +459,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: left;
 }
 
 .form__checkbox > input {
@@ -471,6 +472,8 @@ body {
   background-color: var(--color-sanjuan-blue);
   opacity: .25;
   cursor: pointer;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .form__checkbox > input:checked {

@@ -80,6 +80,7 @@
         position: relative;
         display: flex;
         align-items: center;
+        text-align: left;
 
         > input{
             width: 1.6rem;
@@ -89,6 +90,8 @@
             background-color: var(--color-sanjuan-blue);
             opacity: .25;
             cursor: pointer;
+            // flex-grow: 1;
+            flex-shrink: 0;
         }
 
         > input:checked{
