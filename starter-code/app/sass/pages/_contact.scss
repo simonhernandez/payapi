@@ -41,14 +41,14 @@
     }
 
     .wrapper{
-        padding: 3.2rem 1.6rem 2.667rem;
+        padding: 1.6rem 1.6rem 2.667rem;
 
         @include breakpoint-up(medium){
-            padding: 5rem 6.467rem 3.33rem;
+            padding: 2.5rem 6.467rem 3.33rem;
         }
 
         @include breakpoint-up(large){
-            padding: 5.467rem 11rem 3.2rem;
+            padding: 2.733rem 11rem 3.2rem;
         }
     }
 

@@ -507,18 +507,18 @@ body {
 
 .header .wrapper {
   width: 100%;
-  padding: 2.667rem 1.6rem 0;
+  padding: 2.667rem 1.6rem 1.6rem;
 }
 
 @media screen and (min-width: 42.667em) {
   .header .wrapper {
-    padding: 2.667rem;
+    padding: 2.667rem 2.667rem 2.5rem;
   }
 }
 
 @media screen and (min-width: 68.267em) {
   .header .wrapper {
-    padding: 2.667rem 11rem;
+    padding: 2.733rem 11rem;
   }
 }
 
@@ -1305,7 +1305,7 @@ body {
 
 @media screen and (min-width: 68.267em) {
   .tier .wrapper {
-    padding: 3.2rem 11rem;
+    padding: 2.733rem 11rem 3.2rem;
   }
 }
 
@@ -1459,17 +1459,17 @@ body {
 
 @media screen and (min-width: 42.667em) {
   .about .wrapper {
-    padding: 4.2667rem 2.6rem;
+    padding: 2.5rem 2.667rem 6.133rem;
   }
 }
 
 @media screen and (min-width: 68.267em) {
   .about .wrapper {
-    padding: 5.4667rem 17.33rem;
+    padding: 2.733rem 17.33rem 6.667rem;
   }
 }
 
-@media screen and (max-width: 68.2em) {
+@media screen and (max-width: 42.6em) {
   .about .heading {
     text-align: center;
   }
@@ -1564,18 +1564,18 @@ body {
 }
 
 .info .wrapper {
-  padding: 3.2rem 1.6rem 1.6rem;
+  padding: 3.2rem 1.6rem 2.667rem;
 }
 
 @media screen and (min-width: 42.667em) {
   .info .wrapper {
-    padding: 3.33rem 2.6rem;
+    padding: 4.2667rem 2.667rem 3.33rem;
   }
 }
 
 @media screen and (min-width: 68.267em) {
   .info .wrapper {
-    padding: 6.4rem 17.33rem 3.2rem;
+    padding: 6.667rem 17.33rem 3.2rem;
   }
 }
 
@@ -1742,18 +1742,18 @@ body {
 }
 
 .contact .wrapper {
-  padding: 3.2rem 1.6rem 2.667rem;
+  padding: 1.6rem 1.6rem 2.667rem;
 }
 
 @media screen and (min-width: 42.667em) {
   .contact .wrapper {
-    padding: 5rem 6.467rem 3.33rem;
+    padding: 2.5rem 6.467rem 3.33rem;
   }
 }
 
 @media screen and (min-width: 68.267em) {
   .contact .wrapper {
-    padding: 5.467rem 11rem 3.2rem;
+    padding: 2.733rem 11rem 3.2rem;
   }
 }
 

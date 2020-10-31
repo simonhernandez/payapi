@@ -11,16 +11,16 @@
         width: 100%;
 
         // Mobile
-        padding: 2.667rem 1.6rem 0;
+        padding: 2.667rem 1.6rem 1.6rem;
 
         // Tablet
         @include breakpoint-up(medium){
-            padding: 2.667rem;
+            padding: 2.667rem 2.667rem 2.5rem;
         }
 
         // Desktop
         @include breakpoint-up(large){
-            padding: 2.667rem 11rem;
+            padding: 2.733rem 11rem;
         }
     }
 

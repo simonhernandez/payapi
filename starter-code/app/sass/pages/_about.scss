@@ -37,16 +37,16 @@
     .wrapper{
         padding: 3.2rem 1.6rem;
         @include breakpoint-up(medium){
-            padding: 4.2667rem 2.6rem;
+            padding: 2.5rem 2.667rem 6.133rem;
         }
         @include breakpoint-up(large){
-            padding: 5.4667rem 17.33rem;
+            padding: 2.733rem 17.33rem 6.667rem;
         }
     }
 
     .heading{
 
-        @include breakpoint-down(medium){
+        @include breakpoint-down(small){
             text-align: center;
         }
         &--2{
@@ -122,14 +122,14 @@
     }
 
     .wrapper{
-        padding: 3.2rem 1.6rem 1.6rem;
+        padding: 3.2rem 1.6rem 2.667rem;
 
         @include breakpoint-up(medium){
-            padding: 3.33rem 2.6rem;
+            padding: 4.2667rem 2.667rem 3.33rem;
         }
 
         @include breakpoint-up(large){
-            padding: 6.4rem 17.33rem 3.2rem;
+            padding: 6.667rem 17.33rem 3.2rem;
         }
     }
 
