@@ -105,12 +105,37 @@
     &__feature{
         margin-bottom: .533rem;
         text-align: left;
-        padding-left: 5.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        span{
+            margin-left: 1.6rem;
+        }
 
         &--not-included{
             svg{
                 opacity: 0;
             }
         }
+
+        .space{
+            @include breakpoint-up(large){
+                display: none;
+            }
+        }
+
+        >*{
+            flex-basis: 33%;
+            flex-grow: 1;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        /* > *:not(.space){
+            flex: 1 0 33%;
+        } */
     }
 }
