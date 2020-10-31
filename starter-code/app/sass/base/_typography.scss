@@ -90,6 +90,13 @@ body{
             color: var(--color-sanjuan-blue);
         }
     }
+
+    small{
+        color: red;
+        opacity: .5;
+        font-weight: var(--fw-bold);
+        font-size: var(--fs-small);
+    }
 }
 
 // Typography: Navigation

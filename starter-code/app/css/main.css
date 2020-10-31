@@ -221,6 +221,13 @@ body {
   color: var(--color-sanjuan-blue);
 }
 
+.form small {
+  color: red;
+  opacity: .5;
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-small);
+}
+
 .nav__item {
   font-weight: var(--fw-bold);
 }
