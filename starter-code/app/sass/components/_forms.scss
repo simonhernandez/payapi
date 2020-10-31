@@ -49,24 +49,17 @@
         textarea{
             border: none;
             background: none;
-            border-bottom: 0.0667rem solid var(--color-sanjuan-blue);
-        }
+            border-bottom: 0.0667rem solid var(--color-light-sanjuan-blue);
 
-        [type="text"]:invalid,
-        [type="email"]:invalid,
-        textarea:invalid{
-            position: relative;
-            color: red;
-            border-bottom: 0.0667rem solid red;
-        }
+            &:focus{
+                border-bottom-color: var(--color-sanjuan-blue);
+            }
 
-        [type="text"]:invalid::after,
-        [type="email"]:invalid::after,
-        textarea:invalid::after {
-            content: 'This field can not be empty';
-            position: absolute;
-            bottom: -1rem;
-            left: 1rem;
+            &:invalid{
+                position: relative;
+                color: red;
+                border-bottom: 0.0667rem solid red;
+            }
         }
 
         // Button
