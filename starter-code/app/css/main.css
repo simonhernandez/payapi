@@ -1086,6 +1086,7 @@ body {
   -webkit-column-gap: inherit;
           column-gap: inherit;
   row-gap: inherit;
+  z-index: var(--z-normal);
 }
 
 .hero {
