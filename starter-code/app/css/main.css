@@ -1538,6 +1538,7 @@ body {
 }
 
 .banner {
+  position: relative;
   height: 300px;
   width: 100%;
   background-repeat: no-repeat;
@@ -1557,6 +1558,22 @@ body {
   .banner {
     height: 500px;
     background-image: url(/starter-code/assets/about/desktop/image-team-members.jpg);
+  }
+}
+
+@media screen and (min-width: 68.267em) {
+  .banner::before {
+    content: '';
+    height: 150%;
+    width: 25%;
+    position: absolute;
+    left: 0;
+    top: -25%;
+    z-index: var(--z-back);
+    background-image: url(/starter-code/assets/shared/desktop/bg-pattern-circle.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
   }
 }
 
