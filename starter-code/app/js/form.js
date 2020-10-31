@@ -10,9 +10,18 @@ form.addEventListener('submit', e => {
     e.preventDefault();
 
     // TODO: call checkInput function
+    checkInputs();
 });
 
 // Functions
 function checkInputs(){
+    const nameValue = name.value.trim();
+    const emailValue = email.value.trim();
+    const companyValue = company.value.trim();
+    const titleValue = title.value.trim();
+
+    if (nameValue === ''){
+        alert('error');
+    }
 
 }
