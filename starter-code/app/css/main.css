@@ -673,7 +673,7 @@ body {
 .footer::before {
   content: '';
   position: absolute;
-  background-image: url(/starter-code/assets/shared/desktop/bg-pattern-circle.svg);
+  background-image: url(../../assets/shared/desktop/bg-pattern-circle.svg);
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
@@ -1106,7 +1106,7 @@ body {
   content: '';
   position: absolute;
   z-index: var(--z-back);
-  background-image: url(/starter-code/assets/shared/desktop/bg-pattern-circle.svg);
+  background-image: url(../../assets/shared/desktop/bg-pattern-circle.svg);
   background-repeat: no-repeat;
 }
 
@@ -1168,7 +1168,7 @@ body {
 .partners::before {
   content: '';
   position: absolute;
-  background-image: url(/starter-code/assets/shared/desktop/bg-pattern-circle.svg);
+  background-image: url(../../assets/shared/desktop/bg-pattern-circle.svg);
   background-repeat: no-repeat;
 }
 
@@ -1258,7 +1258,7 @@ body {
     right: 0;
     top: 28%;
     z-index: var(--z-back);
-    background-image: url(/starter-code/assets/shared/desktop/bg-pattern-circle.svg);
+    background-image: url(../../assets/shared/desktop/bg-pattern-circle.svg);
     background-repeat: no-repeat;
   }
 }
@@ -1281,7 +1281,7 @@ body {
   right: 0px;
   top: -25px;
   z-index: var(--z-back);
-  background-image: url(/starter-code/assets/shared/desktop/bg-pattern-circle.svg);
+  background-image: url(../../assets/shared/desktop/bg-pattern-circle.svg);
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: 135% bottom;
@@ -1441,7 +1441,7 @@ body {
   right: 0px;
   top: -25px;
   z-index: var(--z-back);
-  background-image: url(/starter-code/assets/shared/desktop/bg-pattern-circle.svg);
+  background-image: url(../../assets/shared/desktop/bg-pattern-circle.svg);
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: 135% bottom;
@@ -1550,20 +1550,20 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(/starter-code/assets/about/mobile/image-team-members.jpg);
+  background-image: url(../../assets/about/mobile/image-team-members.jpg);
 }
 
 @media screen and (min-width: 42.667em) {
   .banner {
     height: 267px;
-    background-image: url(/starter-code/assets/about/tablet/image-team-members.jpg);
+    background-image: url(../../assets/about/tablet/image-team-members.jpg);
   }
 }
 
 @media screen and (min-width: 68.267em) {
   .banner {
     height: 500px;
-    background-image: url(/starter-code/assets/about/desktop/image-team-members.jpg);
+    background-image: url(../../assets/about/desktop/image-team-members.jpg);
   }
 }
 
@@ -1576,7 +1576,7 @@ body {
     left: 0;
     top: -25%;
     z-index: var(--z-back);
-    background-image: url(/starter-code/assets/shared/desktop/bg-pattern-circle.svg);
+    background-image: url(../../assets/shared/desktop/bg-pattern-circle.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right center;
@@ -1746,7 +1746,7 @@ body {
   right: 0px;
   top: -25px;
   z-index: var(--z-back);
-  background-image: url(/starter-code/assets/shared/desktop/bg-pattern-circle.svg);
+  background-image: url(../../assets/shared/desktop/bg-pattern-circle.svg);
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: 135% bottom;
