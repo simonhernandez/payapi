@@ -374,11 +374,11 @@ body {
 }
 
 .nav__toggle--open {
-  background-image: url(/starter-code/assets/shared/mobile/menu.svg);
+  background-image: url(../../assets/shared/mobile/menu.svg);
 }
 
 .nav__toggle--close {
-  background-image: url(/starter-code/assets/shared/mobile/close.svg);
+  background-image: url(../../assets/shared/mobile/close.svg);
 }
 
 @media screen and (min-width: 42.667em) {

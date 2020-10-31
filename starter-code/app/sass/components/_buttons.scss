@@ -60,10 +60,10 @@
     background-position: center;
 
     &--open{
-        background-image: url(/starter-code/assets/shared/mobile/menu.svg);
+        background-image: url(../../assets/shared/mobile/menu.svg);
     }
 
     &--close{
-        background-image: url(/starter-code/assets/shared/mobile/close.svg);
+        background-image: url(../../assets/shared/mobile/close.svg);
     }
 }
