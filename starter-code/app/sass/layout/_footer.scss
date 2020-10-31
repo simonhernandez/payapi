@@ -7,12 +7,37 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
     
     // Mobile
     @include breakpoint-down(small){
         flex-direction: column;
     }
-    
+
+    &::before{
+        content: '';
+        position: absolute;
+        background-image: url(/starter-code/assets/shared/desktop/bg-pattern-circle.svg);
+        background-repeat: no-repeat;
+        // z-index: var(--z-back);
+        height: 100%;
+        width: 100%;
+        right: 0;
+        bottom: 0;
+        @include breakpoint-down(small){
+            background-position: center -35%;
+            background-size: 200%;
+        }
+        @include breakpoint-up(medium){
+            width: 50%;
+            background-position: left 10%;
+        }
+        @include breakpoint-up(medium){
+            width: 30%;
+            background-position: left 10%;
+        }
+    }
+
     .wrapper{
         width: 100%;
 
@@ -35,6 +60,10 @@
 
         @include breakpoint-up(medium){
             display: flex;
+        }
+
+        &__logo{
+            display: block;
         }
 
         > *{

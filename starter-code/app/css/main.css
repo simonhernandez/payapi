@@ -649,6 +649,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 
 @media screen and (max-width: 42.6em) {
@@ -657,6 +658,38 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  background-image: url(/starter-code/assets/shared/desktop/bg-pattern-circle.svg);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+}
+
+@media screen and (max-width: 42.6em) {
+  .footer::before {
+    background-position: center -35%;
+    background-size: 200%;
+  }
+}
+
+@media screen and (min-width: 42.667em) {
+  .footer::before {
+    width: 50%;
+    background-position: left 10%;
+  }
+}
+
+@media screen and (min-width: 42.667em) {
+  .footer::before {
+    width: 30%;
+    background-position: left 10%;
   }
 }
 
@@ -683,6 +716,10 @@ body {
     display: -ms-flexbox;
     display: flex;
   }
+}
+
+.footer .nav__logo {
+  display: block;
 }
 
 @media screen and (max-width: 42.6em) {
