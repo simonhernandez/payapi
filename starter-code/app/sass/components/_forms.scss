@@ -7,6 +7,8 @@
 .form{
 
     &--cta{
+        box-shadow: var(--bxs-btn);
+        
         @include breakpoint-up(medium){
             display: flex;
             justify-content: space-between;

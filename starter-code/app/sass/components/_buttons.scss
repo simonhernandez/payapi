@@ -9,6 +9,7 @@
     &--primary{
         background-color: var(--color-dark-pink);
         color: var(--color-link-water-white);
+        box-shadow: var(--bxs-btn);
 
         &:hover,
         &:disabled{

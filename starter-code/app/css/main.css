@@ -327,6 +327,8 @@ body {
 .btn--primary {
   background-color: var(--color-dark-pink);
   color: var(--color-link-water-white);
+  -webkit-box-shadow: var(--bxs-btn);
+          box-shadow: var(--bxs-btn);
 }
 
 .btn--primary:hover, .btn--primary:disabled {
@@ -381,6 +383,11 @@ body {
 
 .nav__toggle--close {
   background-image: url(../../assets/shared/mobile/close.svg);
+}
+
+.form--cta {
+  -webkit-box-shadow: var(--bxs-btn);
+          box-shadow: var(--bxs-btn);
 }
 
 @media screen and (min-width: 42.667em) {
