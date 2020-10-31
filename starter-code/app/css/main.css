@@ -1126,7 +1126,7 @@ body {
 @media screen and (max-width: 68.2em) {
   .hero::before {
     height: 60%;
-    left: 0%;
+    left: 0;
     right: 0;
     top: -25%;
     background-position: center 120%;
@@ -1136,8 +1136,8 @@ body {
 
 @media screen and (min-width: 68.267em) {
   .hero::before {
-    height: 100vh;
-    width: 54%;
+    height: 780px;
+    width: 780px;
     right: 0;
     top: -50%;
     background-size: contain;
