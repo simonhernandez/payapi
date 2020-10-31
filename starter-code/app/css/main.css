@@ -408,7 +408,15 @@ body {
   }
 }
 
-.form--contact {
+.form--contact > *:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.form--contact .btn {
+  width: 35%;
+}
+
+.form__control {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -418,34 +426,27 @@ body {
           flex-direction: column;
 }
 
-.form--contact > *:not(:last-child) {
-  margin-bottom: 1.6rem;
-}
-
-.form--contact [type="text"],
-.form--contact [type="email"],
-.form--contact textarea {
+.form__control input,
+.form__control textarea {
   border: none;
   background: none;
   border-bottom: 0.0667rem solid var(--color-light-sanjuan-blue);
 }
 
-.form--contact [type="text"]:focus,
-.form--contact [type="email"]:focus,
-.form--contact textarea:focus {
+.form__control input:focus,
+.form__control textarea:focus {
   border-bottom-color: var(--color-sanjuan-blue);
 }
 
-.form--contact [type="text"]:invalid,
-.form--contact [type="email"]:invalid,
-.form--contact textarea:invalid {
+.form__control input:invalid,
+.form__control textarea:invalid {
   position: relative;
   color: red;
   border-bottom: 0.0667rem solid red;
 }
 
-.form--contact .btn {
-  width: 35%;
+.form__control small {
+  display: none;
 }
 
 .form__checkbox {

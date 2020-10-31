@@ -36,16 +36,20 @@
     }
 
     &--contact{
-        display: flex;
-        flex-direction: column;
-
         > *:not(:last-child){
             margin-bottom: 1.6rem;
         }
+        // Button
+        .btn{
+            width: 35%;
+        }
+    }
 
-        // Inputs and Text Areas
-        [type="text"],
-        [type="email"],
+    &__control{
+        display: flex;
+        flex-direction: column;
+
+        input,
         textarea{
             border: none;
             background: none;
@@ -62,9 +66,8 @@
             }
         }
 
-        // Button
-        .btn{
-            width: 35%;
+        small{
+            display: none;
         }
     }
 
