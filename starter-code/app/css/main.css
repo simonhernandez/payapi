@@ -24,6 +24,7 @@
   --z-normal: 1;
   --z-tooltip: 10;
   --z-fixed: 100;
+  --bxs-btn: 10px 10px 25px -10px rgba($color: #36536B, $alpha: .25);
 }
 
 @media screen and (min-width: 42.667em) {
