@@ -7,12 +7,12 @@
 .form{
 
     &--cta{
-        box-shadow: var(--bxs-btn);
-        
+
         @include breakpoint-up(medium){
             display: flex;
             justify-content: space-between;
             background-color: var(--color-link-water-white);
+            box-shadow: var(--bxs-btn);
             width: 100%;
             max-width: 29.667rem;
             border-radius: 1.6rem;

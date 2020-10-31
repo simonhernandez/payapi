@@ -383,11 +383,6 @@ body {
   background-image: url(../../assets/shared/mobile/close.svg);
 }
 
-.form--cta {
-  -webkit-box-shadow: var(--bxs-btn);
-          box-shadow: var(--bxs-btn);
-}
-
 @media screen and (min-width: 42.667em) {
   .form--cta {
     display: -webkit-box;
@@ -397,6 +392,8 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between;
     background-color: var(--color-link-water-white);
+    -webkit-box-shadow: var(--bxs-btn);
+            box-shadow: var(--bxs-btn);
     width: 100%;
     max-width: 29.667rem;
     border-radius: 1.6rem;
