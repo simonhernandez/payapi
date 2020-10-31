@@ -488,10 +488,6 @@ body {
   opacity: initial;
 }
 
-.form__checkbox > input:disabled {
-  opacity: .05;
-}
-
 .form__checkbox > input:checked + span::before {
   content: '\2713';
   display: block;
@@ -500,6 +496,10 @@ body {
   position: absolute;
   left: .35rem;
   top: 25%;
+}
+
+.form__checkbox > input:disabled {
+  opacity: .05;
 }
 
 .header {
