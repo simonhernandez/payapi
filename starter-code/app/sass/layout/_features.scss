@@ -91,12 +91,16 @@
         }
     }
 
-    &__icon img{
-        margin: 0 auto;
-        margin-bottom: 2.133rem;
+    &__icon{
+        img{
+            margin: 0 auto;
+            margin-bottom: 2.133rem;
+        }
     }
 
-    &__text .heading{
-        margin-bottom: 1.067rem;
+    &__text{
+        .heading{
+            margin-bottom: 1.067rem;
+        }
     }
 }
