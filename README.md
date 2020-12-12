@@ -1,2 +1,2 @@
 # payapi
-This repo showcases my solution to Frontend Mentor's Challenge: PayAPI multi-page website
+Four page website that showcases the features of the PayAPI solution, an API that allows business owners to accept online payments with ease.
